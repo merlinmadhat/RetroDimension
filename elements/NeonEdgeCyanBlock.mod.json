@@ -41,7 +41,7 @@
           {
             "property": {
               "min": 0,
-              "max": 2,
+              "max": 3,
               "name": "CUSTOM:twist",
               "type": "integer"
             },
@@ -75,7 +75,7 @@
           {
             "property": {
               "min": 0,
-              "max": 2,
+              "max": 3,
               "name": "CUSTOM:twist",
               "type": "integer"
             },
@@ -109,11 +109,45 @@
           {
             "property": {
               "min": 0,
-              "max": 2,
+              "max": 3,
               "name": "CUSTOM:twist",
               "type": "integer"
             },
             "value": 2
+          }
+        ]
+      },
+      {
+        "texture": "neonedgecyan",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "renderType": 2,
+        "customModelName": "neontwist3:default",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          }
+        ],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 3,
+              "name": "CUSTOM:twist",
+              "type": "integer"
+            },
+            "value": 3
           }
         ]
       }
@@ -143,7 +177,7 @@
     "customProperties": [
       {
         "min": 0,
-        "max": 2,
+        "max": 3,
         "name": "CUSTOM:twist",
         "type": "integer",
         "value": 0
@@ -232,7 +266,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": "RightClickTwist",
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

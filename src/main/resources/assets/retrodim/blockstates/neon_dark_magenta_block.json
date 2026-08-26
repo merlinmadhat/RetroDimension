@@ -8,6 +8,9 @@
     },
     "twist=2": {
       "model": "retrodim:block/neon_dark_magenta_block_2"
+    },
+    "twist=3": {
+      "model": "retrodim:block/neon_dark_magenta_block_3"
     }
   }
 }

@@ -53,6 +53,14 @@ public class RightClickTwistProcedure {
 					}
 				} else if ((getPropertyByName(blockstate, "twist") instanceof IntegerProperty _getip12 ? blockstate.getValue(_getip12) : -1) == 2) {
 					{
+						int _value = 3;
+						BlockPos _pos = BlockPos.containing(x, y, z);
+						BlockState _bs = world.getBlockState(_pos);
+						if (_bs.getBlock().getStateDefinition().getProperty("twist") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
+							world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
+					}
+				} else if ((getPropertyByName(blockstate, "twist") instanceof IntegerProperty _getip15 ? blockstate.getValue(_getip15) : -1) == 3) {
+					{
 						int _value = 0;
 						BlockPos _pos = BlockPos.containing(x, y, z);
 						BlockState _bs = world.getBlockState(_pos);

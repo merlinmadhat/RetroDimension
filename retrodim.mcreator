@@ -3720,6 +3720,7 @@
       "registry_name": "neon_edge_cyan_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_edge_cyan_block_3.json",
           "src/main/java/net/mcreator/retrodim/block/NeonEdgeCyanBlockBlock.java",
           "src/main/resources/assets/retrodim/models/block/neon_edge_cyan_block_2.json",
           "src/main/resources/assets/retrodim/blockstates/neon_edge_cyan_block.json",
@@ -3746,6 +3747,7 @@
           "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_magenta_block.json",
           "src/main/resources/assets/retrodim/blockstates/neon_edge_magenta_block.json",
           "src/main/resources/assets/retrodim/models/block/neon_edge_magenta_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_magenta_block_3.json",
           "src/main/java/net/mcreator/retrodim/block/NeonEdgeMagentaBlockBlock.java",
           "src/main/resources/assets/retrodim/models/block/neon_edge_magenta_block_1.json"
         ]
@@ -3761,6 +3763,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/retrodim/models/block/neon_dark_magenta_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_magenta_block_3.json",
           "src/main/resources/assets/retrodim/models/block/neon_dark_magenta_block_2.json",
           "src/main/java/net/mcreator/retrodim/block/NeonDarkMagentaBlockBlock.java",
           "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_magenta_block.json",
@@ -3785,6 +3788,7 @@
           "src/main/resources/assets/retrodim/models/item/neon_dark_cyan_block.json",
           "src/main/java/net/mcreator/retrodim/block/NeonDarkCyanBlockBlock.java",
           "src/main/resources/assets/retrodim/models/block/neon_dark_cyan_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_cyan_block_3.json",
           "src/main/resources/assets/retrodim/blockstates/neon_dark_cyan_block.json",
           "src/main/resources/assets/retrodim/models/block/neon_dark_cyan_block_1.json",
           "src/main/resources/assets/retrodim/models/block/neon_dark_cyan_block_2.json"
