@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "retrodim:block/open_sign_red"
+    },
+    "facing=east": {
+      "model": "retrodim:block/open_sign_red",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "retrodim:block/open_sign_red",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "retrodim:block/open_sign_red",
+      "y": 270
+    }
+  }
+}

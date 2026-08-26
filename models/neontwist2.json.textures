@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "missing": "neonedgecyan"
+      }
+    },
+    "magenta": {
+      "name": "magenta",
+      "map": {
+        "missing": "neonedgemagenta"
+      }
+    },
+    "darkcyan": {
+      "name": "darkcyan",
+      "map": {
+        "missing": "neondarkcyan"
+      }
+    },
+    "darkmagenta": {
+      "name": "darkmagenta",
+      "map": {
+        "missing": "neondarkmagenta"
+      }
+    }
+  }
+}

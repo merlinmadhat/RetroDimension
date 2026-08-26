@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "retrodim:blocks/flashing_bubblegum_2s_b",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "retrodim:flashing_bubblegum_2s_b"
+        }
+      ]
+    }
+  ]
+}

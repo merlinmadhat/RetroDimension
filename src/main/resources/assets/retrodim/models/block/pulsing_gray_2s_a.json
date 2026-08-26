@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "retrodim:block/pulsinggray2sa",
+    "particle": "retrodim:block/pulsinggray2sa"
+  },
+  "render_type": "solid"
+}

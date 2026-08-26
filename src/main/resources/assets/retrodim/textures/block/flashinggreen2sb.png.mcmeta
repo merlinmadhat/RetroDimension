@@ -1,0 +1,10 @@
+{
+  "animation": {
+    "frametime": 20,
+    "interpolate": false,
+    "frames": [
+      1,
+      0
+    ]
+  }
+}

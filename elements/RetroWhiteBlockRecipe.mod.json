@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 5,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "Blocks.CHISELED_DEEPSLATE",
+      "Blocks.END_ROD",
+      "Blocks.CHISELED_DEEPSLATE",
+      "Blocks.END_ROD",
+      "Blocks.CHISELED_DEEPSLATE",
+      "Blocks.END_ROD",
+      "Blocks.CHISELED_DEEPSLATE",
+      "Blocks.END_ROD",
+      "Blocks.CHISELED_DEEPSLATE"
+    ],
+    "recipeReturnStack": "CUSTOM:RetroWhiteBlock",
+    "name": "retro_white_block_recipe",
+    "namespace": "mod"
+  }
+}

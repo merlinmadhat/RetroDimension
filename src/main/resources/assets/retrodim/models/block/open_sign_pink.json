@@ -1,0 +1,10 @@
+{
+  "parent": "retrodim:custom/opensignpink",
+  "textures": {
+    "all": "retrodim:block/neoncyan",
+    "particle": "retrodim:block/neoncyan",
+    "0": "retrodim:block/pulsingcyan2sa",
+    "1": "retrodim:block/neonmagenta"
+  },
+  "render_type": "solid"
+}

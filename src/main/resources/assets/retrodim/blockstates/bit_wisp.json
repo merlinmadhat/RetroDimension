@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "retrodim:block/bit_wisp"
+    },
+    "facing=east": {
+      "model": "retrodim:block/bit_wisp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "retrodim:block/bit_wisp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "retrodim:block/bit_wisp",
+      "y": 270
+    }
+  }
+}

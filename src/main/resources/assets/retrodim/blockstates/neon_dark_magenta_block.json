@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "twist=0": {
+      "model": "retrodim:block/neon_dark_magenta_block_0"
+    },
+    "twist=1": {
+      "model": "retrodim:block/neon_dark_magenta_block_1"
+    },
+    "twist=2": {
+      "model": "retrodim:block/neon_dark_magenta_block_2"
+    }
+  }
+}

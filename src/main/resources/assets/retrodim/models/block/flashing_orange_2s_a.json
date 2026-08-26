@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "retrodim:block/flashingorange2sa",
+    "particle": "retrodim:block/flashingorange2sa"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "retrodim:blocks/flickering_magenta_3s_a",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "retrodim:flickering_magenta_3s_a"
+        }
+      ]
+    }
+  ]
+}

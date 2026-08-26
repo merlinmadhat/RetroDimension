@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "retrodim:block/flashingbrown1sz",
+    "particle": "retrodim:block/flashingbrown1sz"
+  },
+  "render_type": "solid"
+}

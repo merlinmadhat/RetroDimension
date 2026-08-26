@@ -1,0 +1,4295 @@
+{
+  "mod_elements": [
+    {
+      "name": "Retrodimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "retrodimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/retrodimension_portal.json",
+          "src/main/resources/assets/retrodim/models/item/retrodimension.json",
+          "src/main/java/net/mcreator/retrodim/block/RetrodimensionPortalBlock.java",
+          "src/main/resources/assets/retrodim/models/block/retrodimension_portal_ew.json",
+          "src/main/java/net/mcreator/retrodim/world/teleporter/RetrodimensionTeleporter.java",
+          "src/main/java/net/mcreator/retrodim/world/teleporter/RetrodimensionPortalShape.java",
+          "src/main/java/net/mcreator/retrodim/item/RetrodimensionItem.java",
+          "src/main/resources/assets/retrodim/models/block/retrodimension_portal_ns.json",
+          "src/main/resources/data/retrodim/dimension/retrodimension.json",
+          "src/main/java/net/mcreator/retrodim/world/dimension/RetrodimensionDimension.java",
+          "src/main/resources/data/retrodim/dimension_type/retrodimension.json"
+        ]
+      },
+      "path": "~/RetroDimension"
+    },
+    {
+      "name": "RetroPurpleBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_purple_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/retro_purple_block.json",
+          "src/main/resources/assets/retrodim/blockstates/retro_purple_block.json",
+          "src/main/resources/assets/retrodim/models/item/retro_purple_block.json",
+          "src/main/java/net/mcreator/retrodim/block/RetroPurpleBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/retro_purple_block.json"
+        ]
+      },
+      "path": "~/Retro Blocks"
+    },
+    {
+      "name": "RetroOrangeBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_orange_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/retro_orange_block.json",
+          "src/main/resources/assets/retrodim/blockstates/retro_orange_block.json",
+          "src/main/java/net/mcreator/retrodim/block/RetroOrangeBlockBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/retro_orange_block.json",
+          "src/main/resources/assets/retrodim/models/block/retro_orange_block.json"
+        ]
+      },
+      "path": "~/Retro Blocks"
+    },
+    {
+      "name": "RetroBlueBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_blue_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/retro_blue_block.json",
+          "src/main/java/net/mcreator/retrodim/block/RetroBlueBlockBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/retro_blue_block.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/retro_blue_block.json",
+          "src/main/resources/assets/retrodim/models/block/retro_blue_block.json"
+        ]
+      },
+      "path": "~/Retro Blocks"
+    },
+    {
+      "name": "RetroPlane",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_plane",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/worldgen/biome/retro_plane.json"
+        ]
+      },
+      "path": "~/RetroDimension"
+    },
+    {
+      "name": "RetroChrome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_chrome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/worldgen/biome/retro_chrome.json"
+        ]
+      },
+      "path": "~/RetroDimension"
+    },
+    {
+      "name": "RetrodimensionOnPortalTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retrodimension_on_portal_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/retrodim/procedures/RetrodimensionOnPortalTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/RetroDimension"
+    },
+    {
+      "name": "RetroDimensionPortalIgniter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_dimension_portal_igniter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/retro_dimension_portal_igniter.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroPurpleBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_purple_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/retro_purple_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroOrangeBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_orange_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/retro_orange_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroBlueBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_blue_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/retro_blue_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockRed",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_red",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_red.json",
+          "src/main/resources/assets/retrodim/models/block/neon_block_red.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockRedBlock.java",
+          "src/main/resources/assets/retrodim/models/item/neon_block_red.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_block_red.json"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockOrange",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_orange",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockOrangeBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_orange.json",
+          "src/main/resources/assets/retrodim/models/item/neon_block_orange.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_block_orange.json",
+          "src/main/resources/assets/retrodim/models/block/neon_block_orange.json"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockBlack",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_black",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_block_black.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockBlackBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/neon_block_black.json",
+          "src/main/resources/assets/retrodim/models/item/neon_block_black.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_black.json"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockYellow",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_yellow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_block_yellow.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockYellowBlock.java",
+          "src/main/resources/assets/retrodim/models/item/neon_block_yellow.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_yellow.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_block_yellow.json"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockLime",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_lime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/neon_block_lime.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_lime.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_block_lime.json",
+          "src/main/resources/assets/retrodim/models/block/neon_block_lime.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockLimeBlock.java"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockLightBlue",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_light_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/neon_block_light_blue.json",
+          "src/main/resources/assets/retrodim/models/block/neon_block_light_blue.json",
+          "src/main/resources/assets/retrodim/models/item/neon_block_light_blue.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockLightBlueBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_light_blue.json"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockMagenta",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_magenta",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/neon_block_magenta.json",
+          "src/main/resources/assets/retrodim/models/block/neon_block_magenta.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockMagentaBlock.java",
+          "src/main/resources/assets/retrodim/models/item/neon_block_magenta.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_magenta.json"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockWhite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_white",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/neon_block_white.json",
+          "src/main/resources/assets/retrodim/models/block/neon_block_white.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_block_white.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockWhiteBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_white.json"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockBlue",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_blue.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_block_blue.json",
+          "src/main/resources/assets/retrodim/models/item/neon_block_blue.json",
+          "src/main/resources/assets/retrodim/models/block/neon_block_blue.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockBlueBlock.java"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockGreen",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_green",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_green.json",
+          "src/main/resources/assets/retrodim/models/item/neon_block_green.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockGreenBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/neon_block_green.json",
+          "src/main/resources/assets/retrodim/models/block/neon_block_green.json"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockLightYellow",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_light_yellow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/neon_block_light_yellow.json",
+          "src/main/resources/assets/retrodim/models/block/neon_block_light_yellow.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockLightYellowBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_light_yellow.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_block_light_yellow.json"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockBrown",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_brown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockBrownBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/neon_block_brown.json",
+          "src/main/resources/assets/retrodim/models/item/neon_block_brown.json",
+          "src/main/resources/assets/retrodim/models/block/neon_block_brown.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_brown.json"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockPurple",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_purple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/neon_block_purple.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_purple.json",
+          "src/main/resources/assets/retrodim/models/item/neon_block_purple.json",
+          "src/main/resources/assets/retrodim/models/block/neon_block_purple.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockPurpleBlock.java"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockPink",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_pink",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/neon_block_pink.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockPinkBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_pink.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_block_pink.json",
+          "src/main/resources/assets/retrodim/models/block/neon_block_pink.json"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockCyan",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_cyan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/neon_block_cyan.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockCyanBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_cyan.json",
+          "src/main/resources/assets/retrodim/models/block/neon_block_cyan.json",
+          "src/main/resources/assets/retrodim/models/item/neon_block_cyan.json"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockGray",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_gray",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockGrayBlock.java",
+          "src/main/resources/assets/retrodim/models/block/neon_block_gray.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_gray.json",
+          "src/main/resources/assets/retrodim/models/item/neon_block_gray.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_block_gray.json"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockLightGray",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_light_gray",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_light_gray.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockLightGrayBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/neon_block_light_gray.json",
+          "src/main/resources/assets/retrodim/models/item/neon_block_light_gray.json",
+          "src/main/resources/assets/retrodim/models/block/neon_block_light_gray.json"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockRedRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_red_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_red_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockOrangeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_orange_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_orange_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockYellowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_yellow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_yellow_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockLightYellowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_light_yellow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_light_yellow_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockLimeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_lime_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_lime_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockGreenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_green_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_green_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockCyanRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_cyan_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_cyan_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockBlueRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_blue_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_blue_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockLightBlueRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_light_blue_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_light_blue_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockMagentaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_magenta_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_magenta_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockPinkRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_pink_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_pink_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockPurpleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_purple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_purple_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockBrownRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_brown_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_brown_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockBlackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_black_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_black_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockWhiteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_white_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_white_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockGrayRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_gray_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_gray_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockLightGrayRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_light_gray_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_light_gray_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBlockBubblegum",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_bubblegum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_block_bubblegum.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_block_bubblegum.json",
+          "src/main/resources/assets/retrodim/models/item/neon_block_bubblegum.json",
+          "src/main/resources/assets/retrodim/models/block/neon_block_bubblegum.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonBlockBubblegumBlock.java"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    },
+    {
+      "name": "NeonBlockBubblegumRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_block_bubblegum_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_block_bubblegum_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "FlashingRed2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_red_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_red_2s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_red_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_red_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingRed2sABlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_red_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingRed2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_red_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_red_2s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingRed2sBBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_red_2s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_red_2s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_red_2s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringRed5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_red_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flickering_red_5s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_red_5s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringRed5sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_red_5s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_red_5s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingMagenta2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_magenta_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_magenta_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingMagenta2sABlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_magenta_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_magenta_2s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_magenta_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingMagenta2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_magenta_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flashing_magenta_2s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_magenta_2s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_magenta_2s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingMagenta2sBBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_magenta_2s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingRed1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_red_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_red_1s_x.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_red_1s_x.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingRed1sXBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_red_1s_x.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_red_1s_x.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingRed1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_red_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_red_1s_y.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingRed1sYBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_red_1s_y.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_red_1s_y.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_red_1s_y.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingRed1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_red_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingRed1sZBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_red_1s_z.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_red_1s_z.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_red_1s_z.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_red_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringRed3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_red_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flickering_red_3s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_red_3s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_red_3s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringRed3sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_red_3s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringRed3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_red_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flickering_red_3s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_red_3s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringRed3sBBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_red_3s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_red_3s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringRed3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_red_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlickeringRed3sCBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flickering_red_3s_c.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_red_3s_c.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_red_3s_c.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_red_3s_c.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "RetrodimensionPlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retrodimension_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/retrodim/procedures/RetrodimensionPlayerEntersDimensionProcedure.java"
+        ]
+      },
+      "path": "~/RetroDimension"
+    },
+    {
+      "name": "PulsingRed2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_red_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/pulsing_red_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/pulsing_red_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/pulsing_red_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/PulsingRed2sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_red_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingMagenta1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_magenta_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_magenta_1s_x.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_magenta_1s_x.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingMagenta1sXBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_magenta_1s_x.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_magenta_1s_x.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingMagenta1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_magenta_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingMagenta1sYBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_magenta_1s_y.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_magenta_1s_y.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_magenta_1s_y.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_magenta_1s_y.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingMagenta1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_magenta_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_magenta_1s_z.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingMagenta1sZBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_magenta_1s_z.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_magenta_1s_z.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_magenta_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringMagenta3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_magenta_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flickering_magenta_3s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_magenta_3s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringMagenta3sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_magenta_3s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_magenta_3s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringMagenta3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_magenta_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlickeringMagenta3sBBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_magenta_3s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_magenta_3s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_magenta_3s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_magenta_3s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringMagenta3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_magenta_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_magenta_3s_c.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_magenta_3s_c.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringMagenta3sCBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flickering_magenta_3s_c.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_magenta_3s_c.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringMagenta5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_magenta_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlickeringMagenta5sABlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flickering_magenta_5s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_magenta_5s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_magenta_5s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_magenta_5s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "PulsingMagenta2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_magenta_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/PulsingMagenta2sABlock.java",
+          "src/main/resources/assets/retrodim/models/item/pulsing_magenta_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/pulsing_magenta_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/pulsing_magenta_2s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_magenta_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingBlue1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_blue_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_blue_1s_x.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingBlue1sXBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_blue_1s_x.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_blue_1s_x.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_blue_1s_x.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingBlue1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_blue_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_blue_1s_y.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingBlue1sYBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_blue_1s_y.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_blue_1s_y.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_blue_1s_y.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingBlue1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_blue_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingBlue1sZBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flashing_blue_1s_z.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_blue_1s_z.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_blue_1s_z.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_blue_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingBlue2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_blue_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_blue_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_blue_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingBlue2sABlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_blue_2s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_blue_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingBlue2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_blue_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flashing_blue_2s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingBlue2sBBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flashing_blue_2s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_blue_2s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_blue_2s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringBlue3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_blue_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlickeringBlue3sABlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flickering_blue_3s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_blue_3s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_blue_3s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_blue_3s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringBlue3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_blue_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flickering_blue_3s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_blue_3s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringBlue3sBBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flickering_blue_3s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_blue_3s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringBlue3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_blue_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flickering_blue_3s_c.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringBlue3sCBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_blue_3s_c.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_blue_3s_c.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_blue_3s_c.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringBlue5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_blue_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_blue_5s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_blue_5s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringBlue5sABlock.java",
+          "src/main/resources/assets/retrodim/models/item/flickering_blue_5s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_blue_5s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "PulsingBlue2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_blue_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/PulsingBlue2sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_blue_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/pulsing_blue_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/pulsing_blue_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/pulsing_blue_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingBrown1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_brown_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingBrown1sXBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_brown_1s_x.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_brown_1s_x.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_brown_1s_x.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_brown_1s_x.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingBrown1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_brown_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_brown_1s_y.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_brown_1s_y.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_brown_1s_y.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_brown_1s_y.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingBrown1sYBlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingBrown1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_brown_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_brown_1s_z.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_brown_1s_z.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingBrown1sZBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_brown_1s_z.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_brown_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingBrown2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_brown_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingBrown2sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_brown_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_brown_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_brown_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_brown_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingBrown2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_brown_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flashing_brown_2s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_brown_2s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_brown_2s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingBrown2sBBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_brown_2s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringBrown3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_brown_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flickering_brown_3s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_brown_3s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_brown_3s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringBrown3sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_brown_3s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringBrown3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_brown_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_brown_3s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_brown_3s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_brown_3s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_brown_3s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringBrown3sBBlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringBrown3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_brown_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlickeringBrown3sCBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_brown_3s_c.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_brown_3s_c.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_brown_3s_c.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_brown_3s_c.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringBrown5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_brown_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_brown_5s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_brown_5s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_brown_5s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringBrown5sABlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_brown_5s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "PulsingBrown2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_brown_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/PulsingBrown2sABlock.java",
+          "src/main/resources/assets/retrodim/blockstates/pulsing_brown_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/pulsing_brown_2s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_brown_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/pulsing_brown_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingBubblegum1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_bubblegum_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingBubblegum1sXBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_bubblegum_1s_x.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_bubblegum_1s_x.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_bubblegum_1s_x.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_bubblegum_1s_x.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingBubblegum1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_bubblegum_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingBubblegum1sYBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_bubblegum_1s_y.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_bubblegum_1s_y.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_bubblegum_1s_y.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_bubblegum_1s_y.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingBubblegum1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_bubblegum_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flashing_bubblegum_1s_z.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_bubblegum_1s_z.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingBubblegum1sZBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_bubblegum_1s_z.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_bubblegum_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingBubblegum2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_bubblegum_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_bubblegum_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_bubblegum_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_bubblegum_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_bubblegum_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingBubblegum2sABlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingBubblegum2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_bubblegum_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_bubblegum_2s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingBubblegum2sBBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_bubblegum_2s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_bubblegum_2s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_bubblegum_2s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringBubblegum3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_bubblegum_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_bubblegum_3s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_bubblegum_3s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_bubblegum_3s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringBubblegum3sABlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flickering_bubblegum_3s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringBubblegum3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_bubblegum_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flickering_bubblegum_3s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_bubblegum_3s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_bubblegum_3s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_bubblegum_3s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringBubblegum3sBBlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringBubblegum3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_bubblegum_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flickering_bubblegum_3s_c.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringBubblegum3sCBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_bubblegum_3s_c.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_bubblegum_3s_c.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_bubblegum_3s_c.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringBubblegum5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_bubblegum_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flickering_bubblegum_5s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_bubblegum_5s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringBubblegum5sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_bubblegum_5s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_bubblegum_5s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "PulsingBubblegum2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_bubblegum_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_bubblegum_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/PulsingBubblegum2sABlock.java",
+          "src/main/resources/assets/retrodim/models/block/pulsing_bubblegum_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/pulsing_bubblegum_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/pulsing_bubblegum_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingCyan1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_cyan_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flashing_cyan_1s_x.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_cyan_1s_x.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingCyan1sXBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flashing_cyan_1s_x.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_cyan_1s_x.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingCyan1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_cyan_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingCyan1sYBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_cyan_1s_y.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_cyan_1s_y.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_cyan_1s_y.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_cyan_1s_y.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingCyan1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_cyan_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flashing_cyan_1s_z.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_cyan_1s_z.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_cyan_1s_z.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingCyan1sZBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_cyan_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingCyan2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_cyan_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flashing_cyan_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_cyan_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingCyan2sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_cyan_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_cyan_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingCyan2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_cyan_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flashing_cyan_2s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_cyan_2s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_cyan_2s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_cyan_2s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingCyan2sBBlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringCyan3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_cyan_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlickeringCyan3sABlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_cyan_3s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_cyan_3s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_cyan_3s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_cyan_3s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringCyan3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_cyan_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flickering_cyan_3s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringCyan3sBBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_cyan_3s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_cyan_3s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_cyan_3s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringCyan3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_cyan_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flickering_cyan_3s_c.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_cyan_3s_c.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_cyan_3s_c.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringCyan3sCBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_cyan_3s_c.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringCyan5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_cyan_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flickering_cyan_5s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_cyan_5s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringCyan5sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_cyan_5s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_cyan_5s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "PulsingCyan2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_cyan_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/pulsing_cyan_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/PulsingCyan2sABlock.java",
+          "src/main/resources/assets/retrodim/blockstates/pulsing_cyan_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/pulsing_cyan_2s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_cyan_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingGray1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_gray_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flashing_gray_1s_x.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_gray_1s_x.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_gray_1s_x.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingGray1sXBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_gray_1s_x.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingGray1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_gray_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingGray1sYBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flashing_gray_1s_y.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_gray_1s_y.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_gray_1s_y.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_gray_1s_y.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingGray1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_gray_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_gray_1s_z.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_gray_1s_z.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingGray1sZBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_gray_1s_z.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_gray_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingGray2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_gray_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_gray_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingGray2sABlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_gray_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_gray_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_gray_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingGray2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_gray_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_gray_2s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_gray_2s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_gray_2s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingGray2sBBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_gray_2s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringGray3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_gray_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flickering_gray_3s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_gray_3s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringGray3sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_gray_3s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_gray_3s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringGray3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_gray_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_gray_3s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_gray_3s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_gray_3s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringGray3sBBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_gray_3s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringGray3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_gray_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_gray_3s_c.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_gray_3s_c.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_gray_3s_c.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringGray3sCBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flickering_gray_3s_c.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringGray5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_gray_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flickering_gray_5s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringGray5sABlock.java",
+          "src/main/resources/assets/retrodim/models/item/flickering_gray_5s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_gray_5s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_gray_5s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "PulsingGray2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_gray_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/pulsing_gray_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/PulsingGray2sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_gray_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/pulsing_gray_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/pulsing_gray_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingGreen1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_green_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flashing_green_1s_x.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_green_1s_x.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingGreen1sXBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_green_1s_x.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_green_1s_x.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingGreen1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_green_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_green_1s_y.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_green_1s_y.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_green_1s_y.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_green_1s_y.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingGreen1sYBlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingGreen1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_green_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingGreen1sZBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_green_1s_z.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_green_1s_z.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_green_1s_z.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_green_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingGreen2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_green_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingGreen2sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_green_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_green_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_green_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_green_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingGreen2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_green_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flashing_green_2s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_green_2s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_green_2s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_green_2s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingGreen2sBBlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringGreen3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_green_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlickeringGreen3sABlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flickering_green_3s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_green_3s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_green_3s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_green_3s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringGreen3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_green_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flickering_green_3s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringGreen3sBBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_green_3s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_green_3s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_green_3s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringGreen3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_green_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flickering_green_3s_c.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_green_3s_c.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_green_3s_c.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_green_3s_c.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringGreen3sCBlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringGreen5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_green_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_green_5s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_green_5s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_green_5s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringGreen5sABlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_green_5s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "PulsingGreen2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_green_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/pulsing_green_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/PulsingGreen2sABlock.java",
+          "src/main/resources/assets/retrodim/models/item/pulsing_green_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/pulsing_green_2s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_green_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLightBlue1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_light_blue_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_light_blue_1s_x.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_light_blue_1s_x.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_light_blue_1s_x.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_light_blue_1s_x.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingLightBlue1sXBlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLightBlue1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_light_blue_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flashing_light_blue_1s_y.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingLightBlue1sYBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_light_blue_1s_y.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_light_blue_1s_y.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_light_blue_1s_y.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLightBlue1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_light_blue_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingLightBlue1sZBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_light_blue_1s_z.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_light_blue_1s_z.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_light_blue_1s_z.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_light_blue_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLightBlue2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_light_blue_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flashing_light_blue_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_light_blue_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_light_blue_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingLightBlue2sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_light_blue_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLightBlue2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_light_blue_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingLightBlue2sBBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_light_blue_2s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_light_blue_2s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_light_blue_2s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_light_blue_2s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringLightBlue3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_light_blue_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flickering_light_blue_3s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_light_blue_3s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_light_blue_3s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_light_blue_3s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringLightBlue3sABlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringLightBlue3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_light_blue_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flickering_light_blue_3s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_light_blue_3s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringLightBlue3sBBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flickering_light_blue_3s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_light_blue_3s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringLightBlue3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_light_blue_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlickeringLightBlue3sCBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flickering_light_blue_3s_c.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_light_blue_3s_c.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_light_blue_3s_c.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_light_blue_3s_c.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringLightBlue5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_light_blue_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flickering_light_blue_5s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_light_blue_5s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringLightBlue5sABlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flickering_light_blue_5s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_light_blue_5s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "PulsingLightBlue2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_light_blue_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/pulsing_light_blue_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/PulsingLightBlue2sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_light_blue_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/pulsing_light_blue_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/pulsing_light_blue_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLightGray1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_light_gray_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingLightGray1sXBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_light_gray_1s_x.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_light_gray_1s_x.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_light_gray_1s_x.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_light_gray_1s_x.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLightGray1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_light_gray_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flashing_light_gray_1s_y.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingLightGray1sYBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_light_gray_1s_y.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_light_gray_1s_y.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_light_gray_1s_y.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLightGray1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_light_gray_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flashing_light_gray_1s_z.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_light_gray_1s_z.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingLightGray1sZBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_light_gray_1s_z.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_light_gray_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLightGray2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_light_gray_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_light_gray_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingLightGray2sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_light_gray_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_light_gray_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_light_gray_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLightGray2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_light_gray_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingLightGray2sBBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flashing_light_gray_2s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_light_gray_2s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_light_gray_2s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_light_gray_2s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringLightGray3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_light_gray_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_light_gray_3s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_light_gray_3s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_light_gray_3s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringLightGray3sABlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_light_gray_3s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringLightGray3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_light_gray_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlickeringLightGray3sBBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_light_gray_3s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_light_gray_3s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_light_gray_3s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_light_gray_3s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringLightGray3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_light_gray_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_light_gray_3s_c.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_light_gray_3s_c.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_light_gray_3s_c.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_light_gray_3s_c.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringLightGray3sCBlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringLightGray5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_light_gray_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlickeringLightGray5sABlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_light_gray_5s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_light_gray_5s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_light_gray_5s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_light_gray_5s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "PulsingLightGray2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_light_gray_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_light_gray_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/PulsingLightGray2sABlock.java",
+          "src/main/resources/assets/retrodim/blockstates/pulsing_light_gray_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/pulsing_light_gray_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/pulsing_light_gray_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLightYellow1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_light_yellow_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_light_yellow_1s_x.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_light_yellow_1s_x.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_light_yellow_1s_x.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingLightYellow1sXBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_light_yellow_1s_x.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLightYellow1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_light_yellow_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flashing_light_yellow_1s_y.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_light_yellow_1s_y.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_light_yellow_1s_y.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingLightYellow1sYBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flashing_light_yellow_1s_y.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLightYellow1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_light_yellow_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_light_yellow_1s_z.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingLightYellow1sZBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_light_yellow_1s_z.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_light_yellow_1s_z.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_light_yellow_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLightYellow2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_light_yellow_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_light_yellow_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingLightYellow2sABlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_light_yellow_2s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_light_yellow_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_light_yellow_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLightYellow2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_light_yellow_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flashing_light_yellow_2s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_light_yellow_2s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_light_yellow_2s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_light_yellow_2s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingLightYellow2sBBlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringLightYellow3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_light_yellow_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flickering_light_yellow_3s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_light_yellow_3s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_light_yellow_3s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_light_yellow_3s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringLightYellow3sABlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringLightYellow3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_light_yellow_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flickering_light_yellow_3s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_light_yellow_3s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_light_yellow_3s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringLightYellow3sBBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flickering_light_yellow_3s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringLightYellow3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_light_yellow_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flickering_light_yellow_3s_c.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_light_yellow_3s_c.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_light_yellow_3s_c.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringLightYellow3sCBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_light_yellow_3s_c.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringLightYellow5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_light_yellow_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flickering_light_yellow_5s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_light_yellow_5s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringLightYellow5sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_light_yellow_5s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_light_yellow_5s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "PulsingLightYellow2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_light_yellow_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/PulsingLightYellow2sABlock.java",
+          "src/main/resources/assets/retrodim/models/item/pulsing_light_yellow_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/pulsing_light_yellow_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/pulsing_light_yellow_2s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_light_yellow_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLime1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_lime_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_lime_1s_x.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingLime1sXBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_lime_1s_x.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_lime_1s_x.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_lime_1s_x.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLime1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_lime_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flashing_lime_1s_y.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_lime_1s_y.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingLime1sYBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_lime_1s_y.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_lime_1s_y.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLime1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_lime_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flashing_lime_1s_z.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingLime1sZBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_lime_1s_z.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_lime_1s_z.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_lime_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLime2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_lime_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingLime2sABlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_lime_2s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_lime_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_lime_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_lime_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingLime2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_lime_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_lime_2s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_lime_2s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingLime2sBBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_lime_2s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_lime_2s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringLime3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_lime_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flickering_lime_3s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_lime_3s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_lime_3s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringLime3sABlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_lime_3s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringLime3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_lime_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlickeringLime3sBBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flickering_lime_3s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_lime_3s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_lime_3s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_lime_3s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringLime3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_lime_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_lime_3s_c.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_lime_3s_c.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringLime3sCBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flickering_lime_3s_c.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_lime_3s_c.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringLime5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_lime_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlickeringLime5sABlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_lime_5s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_lime_5s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_lime_5s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_lime_5s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "PulsingLime2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_lime_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/PulsingLime2sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_lime_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/pulsing_lime_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/pulsing_lime_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/pulsing_lime_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingOrange1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_orange_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_orange_1s_x.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_orange_1s_x.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_orange_1s_x.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingOrange1sXBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_orange_1s_x.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingOrange1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_orange_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_orange_1s_y.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_orange_1s_y.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_orange_1s_y.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_orange_1s_y.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingOrange1sYBlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingOrange1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_orange_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_orange_1s_z.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_orange_1s_z.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingOrange1sZBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_orange_1s_z.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_orange_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingOrange2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_orange_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_orange_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_orange_2s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_orange_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_orange_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingOrange2sABlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingOrange2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_orange_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flashing_orange_2s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_orange_2s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_orange_2s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_orange_2s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingOrange2sBBlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringOrange3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_orange_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flickering_orange_3s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringOrange3sABlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_orange_3s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_orange_3s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_orange_3s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringOrange3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_orange_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_orange_3s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_orange_3s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringOrange3sBBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flickering_orange_3s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_orange_3s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringOrange3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_orange_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flickering_orange_3s_c.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_orange_3s_c.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_orange_3s_c.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_orange_3s_c.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringOrange3sCBlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringOrange5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_orange_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_orange_5s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringOrange5sABlock.java",
+          "src/main/resources/assets/retrodim/models/item/flickering_orange_5s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_orange_5s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_orange_5s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "PulsingOrange2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_orange_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_orange_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/PulsingOrange2sABlock.java",
+          "src/main/resources/assets/retrodim/models/item/pulsing_orange_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/pulsing_orange_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/pulsing_orange_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingPink1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_pink_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flashing_pink_1s_x.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_pink_1s_x.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_pink_1s_x.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_pink_1s_x.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingPink1sXBlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingPink1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_pink_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flashing_pink_1s_y.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingPink1sYBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_pink_1s_y.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_pink_1s_y.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_pink_1s_y.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingPink1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_pink_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingPink1sZBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_pink_1s_z.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_pink_1s_z.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_pink_1s_z.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_pink_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingPink2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_pink_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_pink_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_pink_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingPink2sABlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_pink_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_pink_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingPink2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_pink_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flashing_pink_2s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingPink2sBBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_pink_2s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_pink_2s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_pink_2s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringPink3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_pink_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flickering_pink_3s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_pink_3s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_pink_3s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_pink_3s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringPink3sABlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringPink3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_pink_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flickering_pink_3s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringPink3sBBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flickering_pink_3s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_pink_3s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_pink_3s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringPink3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_pink_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_pink_3s_c.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_pink_3s_c.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_pink_3s_c.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringPink3sCBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_pink_3s_c.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringPink5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_pink_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flickering_pink_5s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_pink_5s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_pink_5s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_pink_5s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringPink5sABlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "PulsingPink2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_pink_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/pulsing_pink_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/pulsing_pink_2s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_pink_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/pulsing_pink_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/PulsingPink2sABlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingPurple1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_purple_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_purple_1s_x.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_purple_1s_x.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingPurple1sXBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_purple_1s_x.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_purple_1s_x.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingPurple1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_purple_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flashing_purple_1s_y.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingPurple1sYBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flashing_purple_1s_y.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_purple_1s_y.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_purple_1s_y.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingPurple1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_purple_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingPurple1sZBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_purple_1s_z.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_purple_1s_z.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_purple_1s_z.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_purple_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingPurple2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_purple_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_purple_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_purple_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingPurple2sABlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_purple_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_purple_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingPurple2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_purple_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flashing_purple_2s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingPurple2sBBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flashing_purple_2s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_purple_2s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_purple_2s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringPurple3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_purple_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flickering_purple_3s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringPurple3sABlock.java",
+          "src/main/resources/assets/retrodim/models/item/flickering_purple_3s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_purple_3s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_purple_3s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringPurple3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_purple_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlickeringPurple3sBBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_purple_3s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_purple_3s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_purple_3s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_purple_3s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringPurple3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_purple_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flickering_purple_3s_c.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringPurple3sCBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_purple_3s_c.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_purple_3s_c.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_purple_3s_c.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringPurple5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_purple_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flickering_purple_5s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_purple_5s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringPurple5sABlock.java",
+          "src/main/resources/assets/retrodim/models/item/flickering_purple_5s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_purple_5s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "PulsingPurple2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_purple_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/pulsing_purple_2s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_purple_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/pulsing_purple_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/pulsing_purple_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/PulsingPurple2sABlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingWhite1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_white_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingWhite1sXBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_white_1s_x.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_white_1s_x.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_white_1s_x.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_white_1s_x.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingWhite1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_white_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_white_1s_y.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_white_1s_y.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingWhite1sYBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flashing_white_1s_y.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_white_1s_y.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingWhite1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_white_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingWhite1sZBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flashing_white_1s_z.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_white_1s_z.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_white_1s_z.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_white_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingWhite2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_white_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingWhite2sABlock.java",
+          "src/main/resources/assets/retrodim/models/block/flashing_white_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_white_2s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_white_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_white_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingWhite2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_white_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlashingWhite2sBBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_white_2s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_white_2s_b.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_white_2s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_white_2s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringWhite3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_white_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flickering_white_3s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_white_3s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_white_3s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringWhite3sABlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_white_3s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringWhite3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_white_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_white_3s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringWhite3sBBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flickering_white_3s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_white_3s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_white_3s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringWhite3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_white_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlickeringWhite3sCBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flickering_white_3s_c.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_white_3s_c.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_white_3s_c.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_white_3s_c.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringWhite5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_white_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_white_5s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_white_5s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_white_5s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringWhite5sABlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flickering_white_5s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "PulsingWhite2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_white_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/PulsingWhite2sABlock.java",
+          "src/main/resources/assets/retrodim/blockstates/pulsing_white_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/pulsing_white_2s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_white_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/pulsing_white_2s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingYellow1sX",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_yellow_1s_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/flashing_yellow_1s_x.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_yellow_1s_x.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingYellow1sXBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_yellow_1s_x.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_yellow_1s_x.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingYellow1sY",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_yellow_1s_y",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/flashing_yellow_1s_y.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingYellow1sYBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flashing_yellow_1s_y.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_yellow_1s_y.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_yellow_1s_y.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingYellow1sZ",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_yellow_1s_z",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flashing_yellow_1s_z.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingYellow1sZBlock.java",
+          "src/main/resources/assets/retrodim/models/block/flashing_yellow_1s_z.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_yellow_1s_z.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_yellow_1s_z.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingYellow2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_yellow_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_yellow_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flashing_yellow_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_yellow_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_yellow_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingYellow2sABlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlashingYellow2sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashing_yellow_2s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flashing_yellow_2s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flashing_yellow_2s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlashingYellow2sBBlock.java",
+          "src/main/resources/assets/retrodim/models/item/flashing_yellow_2s_b.json",
+          "src/main/resources/assets/retrodim/blockstates/flashing_yellow_2s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringYellow3sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_yellow_3s_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlickeringYellow3sABlock.java",
+          "src/main/resources/assets/retrodim/models/item/flickering_yellow_3s_a.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_yellow_3s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_yellow_3s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/flickering_yellow_3s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringYellow3sB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_yellow_3s_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_yellow_3s_b.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringYellow3sBBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flickering_yellow_3s_b.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_yellow_3s_b.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_yellow_3s_b.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringYellow3sC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_yellow_3s_c",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/FlickeringYellow3sCBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/flickering_yellow_3s_c.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_yellow_3s_c.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_yellow_3s_c.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_yellow_3s_c.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "FlickeringYellow5sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flickering_yellow_5s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/flickering_yellow_5s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/FlickeringYellow5sABlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/flickering_yellow_5s_a.json",
+          "src/main/resources/assets/retrodim/models/block/flickering_yellow_5s_a.json",
+          "src/main/resources/assets/retrodim/models/item/flickering_yellow_5s_a.json"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "PulsingYellow2sA",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pulsing_yellow_2s_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/pulsing_yellow_2s_a.json",
+          "src/main/resources/assets/retrodim/models/block/pulsing_yellow_2s_a.json",
+          "src/main/resources/assets/retrodim/models/item/pulsing_yellow_2s_a.json",
+          "src/main/resources/assets/retrodim/blockstates/pulsing_yellow_2s_a.json",
+          "src/main/java/net/mcreator/retrodim/block/PulsingYellow2sABlock.java"
+        ]
+      },
+      "path": "~/Blocks Animated"
+    },
+    {
+      "name": "ArcadeCabinet",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_cabinet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/arcade_cabinet.json",
+          "src/main/java/net/mcreator/retrodim/block/ArcadeCabinetBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/arcade_cabinet.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/arcade_cabinet.json",
+          "src/main/resources/assets/retrodim/models/item/arcade_cabinet.json"
+        ]
+      },
+      "path": "~/Decorations"
+    },
+    {
+      "name": "OpenSignRed",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_sign_red",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/OpenSignRedBlock.java",
+          "src/main/resources/assets/retrodim/models/block/open_sign_red.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/open_sign_red.json",
+          "src/main/resources/assets/retrodim/models/item/open_sign_red.json",
+          "src/main/resources/assets/retrodim/blockstates/open_sign_red.json"
+        ]
+      },
+      "path": "~/Decorations"
+    },
+    {
+      "name": "OpenSignPink",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_sign_pink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/OpenSignPinkBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/open_sign_pink.json",
+          "src/main/resources/assets/retrodim/models/block/open_sign_pink.json",
+          "src/main/resources/assets/retrodim/models/item/open_sign_pink.json",
+          "src/main/resources/assets/retrodim/blockstates/open_sign_pink.json"
+        ]
+      },
+      "path": "~/Decorations"
+    },
+    {
+      "name": "NeonCyberSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_cyber_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/neon_cyber_sign.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonCyberSignBlock.java",
+          "src/main/resources/assets/retrodim/models/item/neon_cyber_sign.json",
+          "src/main/resources/assets/retrodim/models/block/neon_cyber_sign.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_cyber_sign.json"
+        ]
+      },
+      "path": "~/Decorations"
+    },
+    {
+      "name": "NeonEdgeCyanBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_cyan_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgeCyanBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_cyan_block_2.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_cyan_block.json",
+          "src/main/resources/assets/retrodim/models/item/neon_edge_cyan_block.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_cyan_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_cyan_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_cyan_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_cyan_block_1.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonEdgeMagentaBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_magenta_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/neon_edge_magenta_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_magenta_block_2.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_magenta_block.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_magenta_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_magenta_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_magenta_block_0.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgeMagentaBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_magenta_block_1.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonDarkMagentaBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_magenta_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_dark_magenta_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_magenta_block_2.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkMagentaBlockBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_magenta_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_magenta_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_magenta_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_magenta_block_0.json",
+          "src/main/resources/assets/retrodim/models/item/neon_dark_magenta_block.json"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "NeonDarkCyanBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_cyan_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_cyan_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_cyan_block.json",
+          "src/main/resources/assets/retrodim/models/item/neon_dark_cyan_block.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkCyanBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_cyan_block_0.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_cyan_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_cyan_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_cyan_block_2.json"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "BitWisp",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bit_wisp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/bit_wisp.json",
+          "src/main/resources/assets/retrodim/models/block/bit_wisp.json",
+          "src/main/java/net/mcreator/retrodim/block/BitWispBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/bit_wisp.json",
+          "src/main/resources/assets/retrodim/blockstates/bit_wisp.json"
+        ]
+      },
+      "path": "~/Decorations"
+    },
+    {
+      "name": "RightClickTwist",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_click_twist",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/retrodim/procedures/RightClickTwistProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RetroGreenBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_green_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/retro_green_block.json",
+          "src/main/resources/assets/retrodim/models/item/retro_green_block.json",
+          "src/main/resources/assets/retrodim/blockstates/retro_green_block.json",
+          "src/main/java/net/mcreator/retrodim/block/RetroGreenBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/retro_green_block.json"
+        ]
+      },
+      "path": "~/Retro Blocks"
+    },
+    {
+      "name": "RetroRedBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_red_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/retro_red_block.json",
+          "src/main/resources/assets/retrodim/blockstates/retro_red_block.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/retro_red_block.json",
+          "src/main/resources/assets/retrodim/models/block/retro_red_block.json",
+          "src/main/java/net/mcreator/retrodim/block/RetroRedBlockBlock.java"
+        ]
+      },
+      "path": "~/Retro Blocks"
+    },
+    {
+      "name": "RetroYellowBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_yellow_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/retro_yellow_block.json",
+          "src/main/resources/assets/retrodim/models/item/retro_yellow_block.json",
+          "src/main/java/net/mcreator/retrodim/block/RetroYellowBlockBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/retro_yellow_block.json",
+          "src/main/resources/assets/retrodim/models/block/retro_yellow_block.json"
+        ]
+      },
+      "path": "~/Retro Blocks"
+    },
+    {
+      "name": "RetroWhiteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_white_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/RetroWhiteBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/retro_white_block.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/retro_white_block.json",
+          "src/main/resources/assets/retrodim/models/item/retro_white_block.json",
+          "src/main/resources/assets/retrodim/blockstates/retro_white_block.json"
+        ]
+      },
+      "path": "~/Retro Blocks"
+    },
+    {
+      "name": "RetroGreenBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_green_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/retro_green_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroYellowBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_yellow_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/retro_yellow_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroWhiteBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_white_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/retro_white_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "RetroRedBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_red_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/retro_red_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonAnimate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_animate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/retrodim/procedures/NeonAnimateProcedure.java"
+        ]
+      },
+      "path": "~/Neon Blocks"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "portalsynthwave",
+      "files": [
+        "portalsynthwave"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "plink",
+      "files": [
+        "plink"
+      ],
+      "category": "neutral",
+      "subtitle": "Neon plinks"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Retrodimension@CUSTOM:RetroPurpleBlock"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.retrodim.retrodimension": "Retrodimension Portal Igniter",
+      "block.retrodim.retro_purple_block": "Retro Purple Block",
+      "block.retrodim.retro_orange_block": "Retro Orange Block",
+      "block.retrodim.retro_blue_block": "Retro Blue Block",
+      "biome.retrodim.retro_plane": "Retro Plane",
+      "biome.retrodim.retro_chrome": "Retro Plane",
+      "block.retrodim.neon_block_red": "Neon Block Red",
+      "block.retrodim.neon_block_orange": "Neon Block Orange",
+      "block.retrodim.neon_block_black": "Neon Block Black",
+      "block.retrodim.neon_block_yellow": "Neon Block Yellow",
+      "block.retrodim.neon_block_lime": "Neon Block Lime",
+      "block.retrodim.neon_block_light_blue": "Neon Block Light Blue",
+      "block.retrodim.neon_block_magenta": "Neon Block Magenta",
+      "block.retrodim.neon_block_white": "Neon Block White",
+      "block.retrodim.neon_block_blue": "Neon Block Blue",
+      "block.retrodim.neon_block_green": "Neon Block Green",
+      "block.retrodim.neon_block_light_yellow": "Neon Block Light Yellow",
+      "block.retrodim.neon_block_brown": "Neon Block Brown",
+      "block.retrodim.neon_block_purple": "Neon Block Purple",
+      "block.retrodim.neon_block_pink": "Neon Block Pink",
+      "block.retrodim.neon_block_cyan": "Neon Block Cyan",
+      "block.retrodim.neon_block_gray": "Neon Block Gray",
+      "block.retrodim.neon_block_light_gray": "Neon Block Light Gray",
+      "block.retrodim.neon_block_bubblegum": "Neon Block Bubblegum",
+      "block.retrodim.flickering_red_3s_a": "Flickering Red 3sA",
+      "block.retrodim.flickering_red_3s_b": "Flickering Red 3sB",
+      "block.retrodim.flickering_red_3s_c": "Flickering Red 3sC",
+      "subtitles.portalsynthwave": "",
+      "block.retrodim.pulsing_red_2s_a": "Pulsing Red 2sA",
+      "block.retrodim.flickering_red_5s_a": "Flickering Red 5sA",
+      "block.retrodim.flashing_red_2s_b": "Flashing Red 2sB",
+      "block.retrodim.flashing_red_2s_a": "Flashing Red 2sA",
+      "block.retrodim.flashing_red_1s_z": "Flashing Red 1sZ",
+      "block.retrodim.flashing_red_1s_y": "Flashing Red 1sY",
+      "block.retrodim.flashing_red_1s_x": "Flashing Red 1sX",
+      "block.retrodim.flashing_magenta_2s_b": "Flashing Magenta 2sB",
+      "block.retrodim.flashing_magenta_2s_a": "Flashing Magenta 2sA",
+      "block.retrodim.flashing_magenta_1s_x": "Flashing Magenta 1sX",
+      "block.retrodim.flashing_magenta_1s_y": "Flashing Magenta 1sY",
+      "block.retrodim.flashing_magenta_1s_z": "Flashing Magenta 1sZ",
+      "block.retrodim.flickering_magenta_3s_a": "Flickering Magenta 3sA",
+      "block.retrodim.flickering_magenta_3s_b": "Flickering Magenta 3sB",
+      "block.retrodim.flickering_magenta_3s_c": "Flickering Magenta 3sC",
+      "block.retrodim.flickering_magenta_5s_a": "Flickering Magenta 5sA",
+      "block.retrodim.pulsing_magenta_2s_a": "Pulsing Magenta 2sA",
+      "block.retrodim.flashing_blue_1s_x": "Flashing Blue 1sX",
+      "block.retrodim.flashing_blue_1s_y": "Flashing Blue 1sY",
+      "block.retrodim.flashing_blue_1s_z": "Flashing Blue 1sZ",
+      "block.retrodim.flashing_blue_2s_a": "Flashing Blue 2sA",
+      "block.retrodim.flashing_blue_2s_b": "Flashing Blue 2sB",
+      "block.retrodim.flickering_blue_3s_a": "Flickering Blue 3sA",
+      "block.retrodim.flickering_blue_3s_b": "Flickering Blue 3sB",
+      "block.retrodim.flickering_blue_3s_c": "Flickering Blue 3sC",
+      "block.retrodim.flickering_blue_5s_a": "Flickering Blue 5sA",
+      "block.retrodim.pulsing_blue_2s_a": "Pulsing Blue 2sA",
+      "block.retrodim.flashing_brown_1s_x": "Flashing Brown 1sX",
+      "block.retrodim.flashing_brown_1s_y": "Flashing Brown 1sY",
+      "block.retrodim.flashing_brown_1s_z": "Flashing Brown 1sZ",
+      "block.retrodim.flashing_brown_2s_a": "Flashing Brown 2sA",
+      "block.retrodim.flashing_brown_2s_b": "Flashing Brown 2sB",
+      "block.retrodim.flickering_brown_3s_a": "Flickering Brown 3sA",
+      "block.retrodim.flickering_brown_3s_b": "Flickering Brown 3sB",
+      "block.retrodim.flickering_brown_3s_c": "Flickering Brown 3sC",
+      "block.retrodim.flickering_brown_5s_a": "Flickering Brown 5sA",
+      "block.retrodim.pulsing_brown_2s_a": "Pulsing Brown 2sA",
+      "block.retrodim.flashing_bubblegum_1s_x": "Flashing Bubblegum 1sX",
+      "block.retrodim.flashing_bubblegum_1s_y": "Flashing Bubblegum 1sY",
+      "block.retrodim.flashing_bubblegum_1s_z": "Flashing Bubblegum 1sZ",
+      "block.retrodim.flashing_bubblegum_2s_a": "Flashing Bubblegum 2sA",
+      "block.retrodim.flashing_bubblegum_2s_b": "Flashing Bubblegum 2sB",
+      "block.retrodim.flickering_bubblegum_3s_a": "Flickering Bubblegum 3sA",
+      "block.retrodim.flickering_bubblegum_3s_b": "Flickering Bubblegum 3sB",
+      "block.retrodim.flickering_bubblegum_3s_c": "Flickering Bubblegum 3sC",
+      "block.retrodim.flickering_bubblegum_5s_a": "Flickering Bubblegum 5sA",
+      "block.retrodim.pulsing_bubblegum_2s_a": "Pulsing Bubblegum 2sA",
+      "block.retrodim.flashing_cyan_1s_x": "Flashing Cyan 1sX",
+      "block.retrodim.flashing_cyan_1s_y": "Flashing Cyan 1sY",
+      "block.retrodim.flashing_cyan_1s_z": "Flashing Cyan 1sZ",
+      "block.retrodim.flashing_cyan_2s_a": "Flashing Cyan 2sA",
+      "block.retrodim.flashing_cyan_2s_b": "Flashing Cyan 2sB",
+      "block.retrodim.flickering_cyan_3s_a": "Flickering Cyan 3sA",
+      "block.retrodim.flickering_cyan_3s_b": "Flickering Cyan 3sB",
+      "block.retrodim.flickering_cyan_3s_c": "Flickering Cyan 3sC",
+      "block.retrodim.flickering_cyan_5s_a": "Flickering Cyan 5sA",
+      "block.retrodim.pulsing_cyan_2s_a": "Pulsing Cyan 2sA",
+      "block.retrodim.flashing_gray_1s_x": "Flashing Gray 1sX",
+      "block.retrodim.flashing_gray_1s_y": "Flashing Gray 1sY",
+      "block.retrodim.flashing_gray_1s_z": "Flashing Gray 1sZ",
+      "block.retrodim.flashing_gray_2s_a": "Flashing Gray 2sA",
+      "block.retrodim.flashing_gray_2s_b": "Flashing Gray 2sB",
+      "block.retrodim.flickering_gray_3s_a": "Flickering Gray 3sA",
+      "block.retrodim.flickering_gray_3s_b": "Flickering Gray 3sB",
+      "block.retrodim.flickering_gray_3s_c": "Flickering Gray 3sC",
+      "block.retrodim.flickering_gray_5s_a": "Flickering Gray 5sA",
+      "block.retrodim.pulsing_gray_2s_a": "Pulsing Gray 2sA",
+      "block.retrodim.flashing_green_1s_x": "Flashing Green 1sX",
+      "block.retrodim.flashing_green_1s_y": "Flashing Green 1sY",
+      "block.retrodim.flashing_green_1s_z": "Flashing Green 1sZ",
+      "block.retrodim.flashing_green_2s_a": "Flashing Green 2sA",
+      "block.retrodim.flashing_green_2s_b": "Flashing Green 2sB",
+      "block.retrodim.flickering_green_3s_a": "Flickering Green 3sA",
+      "block.retrodim.flickering_green_3s_b": "Flickering Green 3sB",
+      "block.retrodim.flickering_green_3s_c": "Flickering Green 3sC",
+      "block.retrodim.flickering_green_5s_a": "Flickering Green 5sA",
+      "block.retrodim.pulsing_green_2s_a": "Pulsing Green 2sA",
+      "block.retrodim.flashing_light_blue_1s_x": "Flashing Light Blue 1sX",
+      "block.retrodim.flashing_light_blue_1s_y": "Flashing Light Blue 1sY",
+      "block.retrodim.flashing_light_blue_1s_z": "Flashing Light Blue 1sZ",
+      "block.retrodim.flashing_light_blue_2s_a": "Flashing Light Blue 2sA",
+      "block.retrodim.flashing_light_blue_2s_b": "Flashing Light Blue 2sB",
+      "block.retrodim.flickering_light_blue_3s_a": "Flickering Light Blue 3sA",
+      "block.retrodim.flickering_light_blue_3s_b": "Flickering Light Blue 3sB",
+      "block.retrodim.flickering_light_blue_3s_c": "Flickering Light Blue 3sC",
+      "block.retrodim.flickering_light_blue_5s_a": "Flickering Light Blue 5sA",
+      "block.retrodim.pulsing_light_blue_2s_a": "Pulsing Light Blue 2sA",
+      "block.retrodim.flashing_light_gray_1s_x": "Flashing Light Gray 1sX",
+      "block.retrodim.flashing_light_gray_1s_y": "Flashing Light Gray 1sY",
+      "block.retrodim.flashing_light_gray_1s_z": "Flashing Light Gray 1sZ",
+      "block.retrodim.flashing_light_gray_2s_a": "Flashing Light Gray 2sA",
+      "block.retrodim.flashing_light_gray_2s_b": "Flashing Light Gray 2sB",
+      "block.retrodim.flickering_light_gray_3s_a": "Flickering Light Gray 3sA",
+      "block.retrodim.flickering_light_gray_3s_b": "Flickering Light Gray 3sB",
+      "block.retrodim.flickering_light_gray_3s_c": "Flickering Light Gray 3sC",
+      "block.retrodim.flickering_light_gray_5s_a": "Flickering Light Gray 5sA",
+      "block.retrodim.pulsing_light_gray_2s_a": "Pulsing Light Gray 2sA",
+      "block.retrodim.flashing_light_yellow_1s_x": "Flashing Light Yellow 1sX",
+      "block.retrodim.flashing_light_yellow_1s_y": "Flashing Light Yellow 1sY",
+      "block.retrodim.flashing_light_yellow_1s_z": "Flashing Light Yellow 1sZ",
+      "block.retrodim.flashing_light_yellow_2s_a": "Flashing Light Yellow 2sA",
+      "block.retrodim.flashing_light_yellow_2s_b": "Flashing Light Yellow 2sB",
+      "block.retrodim.flickering_light_yellow_3s_a": "Flickering Light Yellow 3sA",
+      "block.retrodim.flickering_light_yellow_3s_b": "Flickering Light Yellow 3sB",
+      "block.retrodim.flickering_light_yellow_3s_c": "Flickering Light Yellow 3sC",
+      "block.retrodim.flickering_light_yellow_5s_a": "Flickering Light Yellow 5sA",
+      "block.retrodim.pulsing_light_yellow_2s_a": "Pulsing Light Yellow 2sA",
+      "block.retrodim.flashing_lime_1s_x": "Flashing Lime 1sX",
+      "block.retrodim.flashing_lime_1s_y": "Flashing Lime 1sY",
+      "block.retrodim.flashing_lime_1s_z": "Flashing Lime 1sZ",
+      "block.retrodim.flashing_lime_2s_a": "Flashing Lime 2sA",
+      "block.retrodim.flashing_lime_2s_b": "Flashing Lime 2sB",
+      "block.retrodim.flickering_lime_3s_a": "Flickering Lime 3sA",
+      "block.retrodim.flickering_lime_3s_b": "Flickering Lime 3sB",
+      "block.retrodim.flickering_lime_3s_c": "Flickering Lime 3sC",
+      "block.retrodim.flickering_lime_5s_a": "Flickering Lime 5sA",
+      "block.retrodim.pulsing_lime_2s_a": "Pulsing Lime 2sA",
+      "block.retrodim.flashing_orange_1s_x": "Flashing Orange 1sX",
+      "block.retrodim.flashing_orange_1s_y": "Flashing Orange 1sY",
+      "block.retrodim.flashing_orange_1s_z": "Flashing Orange 1sZ",
+      "block.retrodim.flashing_orange_2s_a": "Flashing Orange 2sA",
+      "block.retrodim.flashing_orange_2s_b": "Flashing Orange 2sB",
+      "block.retrodim.flickering_orange_3s_a": "Flickering Orange 3sA",
+      "block.retrodim.flickering_orange_3s_b": "Flickering Orange 3sB",
+      "block.retrodim.flickering_orange_3s_c": "Flickering Orange 3sC",
+      "block.retrodim.flickering_orange_5s_a": "Flickering Orange 5sA",
+      "block.retrodim.pulsing_orange_2s_a": "Pulsing Orange 2sA",
+      "block.retrodim.flashing_pink_1s_x": "Flashing Pink 1sX",
+      "block.retrodim.flashing_pink_1s_y": "Flashing Pink 1sY",
+      "block.retrodim.flashing_pink_1s_z": "Flashing Pink 1sZ",
+      "block.retrodim.flashing_pink_2s_a": "Flashing Pink 2sA",
+      "block.retrodim.flashing_pink_2s_b": "Flashing Pink 2sB",
+      "block.retrodim.flickering_pink_3s_a": "Flickering Pink 3sA",
+      "block.retrodim.flickering_pink_3s_b": "Flickering Pink 3sB",
+      "block.retrodim.flickering_pink_3s_c": "Flickering Pink 3sC",
+      "block.retrodim.flickering_pink_5s_a": "Flickering Pink 5sA",
+      "block.retrodim.pulsing_pink_2s_a": "Pulsing Pink 2sA",
+      "block.retrodim.flashing_purple_1s_x": "Flashing Purple 1sX",
+      "block.retrodim.flashing_purple_1s_y": "Flashing Purple 1sY",
+      "block.retrodim.flashing_purple_1s_z": "Flashing Purple 1sZ",
+      "block.retrodim.flashing_purple_2s_a": "Flashing Purple 2sA",
+      "block.retrodim.flashing_purple_2s_b": "Flashing Red 2sB",
+      "block.retrodim.flickering_purple_3s_a": "Flickering Purple 3sA",
+      "block.retrodim.flickering_purple_3s_b": "Flickering Purple 3sB",
+      "block.retrodim.flickering_purple_3s_c": "Flickering Purple 3sC",
+      "block.retrodim.flickering_purple_5s_a": "Flickering Purple 5sA",
+      "block.retrodim.pulsing_purple_2s_a": "Pulsing Purple 2sA",
+      "block.retrodim.flashing_white_1s_x": "Flashing White 1sX",
+      "block.retrodim.flashing_white_1s_y": "Flashing White 1sY",
+      "block.retrodim.flashing_white_1s_z": "Flashing White 1sZ",
+      "block.retrodim.flashing_white_2s_a": "Flashing White 2sA",
+      "block.retrodim.flashing_white_2s_b": "Flashing White 2sB",
+      "block.retrodim.flickering_white_3s_a": "Flickering White 3sA",
+      "block.retrodim.flickering_white_3s_b": "Flickering White 3sB",
+      "block.retrodim.flickering_white_3s_c": "Flickering White 3sC",
+      "block.retrodim.flickering_white_5s_a": "Flickering White 5sA",
+      "block.retrodim.pulsing_white_2s_a": "Pulsing White 2sA",
+      "block.retrodim.flashing_yellow_1s_x": "Flashing Yellow 1sX",
+      "block.retrodim.flashing_yellow_1s_y": "Flashing Yellow 1sY",
+      "block.retrodim.flashing_yellow_1s_z": "Flashing Yellow 1sZ",
+      "block.retrodim.flashing_yellow_2s_a": "Flashing Yellow 2sA",
+      "block.retrodim.flashing_yellow_2s_b": "Flashing Yellow 2sB",
+      "block.retrodim.flickering_yellow_3s_a": "Flickering Yellow 3sA",
+      "block.retrodim.flickering_yellow_3s_b": "Flickering Yellow 3sB",
+      "block.retrodim.flickering_yellow_3s_c": "Flickering Yellow 3sC",
+      "block.retrodim.flickering_yellow_5s_a": "Flickering Yellow 5sA",
+      "block.retrodim.pulsing_yellow_2s_a": "Pulsing Yellow 2sA",
+      "block.retrodim.arcade_cabinet": "Arcade Cabinet",
+      "block.retrodim.open_sign_red": "Open Sign Red",
+      "block.retrodim.open_sign_pink": "Open Sign Pink",
+      "block.retrodim.neon_cyber_sign": "Neon Cyber Sign",
+      "block.retrodim.neon_edge_cyan_block": "Neon Edge Cyan Block",
+      "block.retrodim.neon_edge_magenta_block": "Neon Edge Magenta Block",
+      "block.retrodim.neon_dark_magenta_block": "Neon Dark Magenta Block",
+      "block.retrodim.neon_dark_cyan_block": "Neon Dark Cyan Block",
+      "block.retrodim.bit_wisp": "Bit Wisp",
+      "subtitles.plink": "Neon plinks",
+      "block.retrodim.retro_green_block": "Retro Green Block",
+      "block.retrodim.retro_red_block": "Retro Red Block",
+      "block.retrodim.retro_yellow_block": "Retro Yellow Block",
+      "block.retrodim.retro_white_block": "Retro White Block"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/retrodim/client/RetrodimModSkyboxRenderer.java",
+      "src/main/java/net/mcreator/retrodim/init/RetrodimModBlocks.java",
+      "src/main/java/net/mcreator/retrodim/init/RetrodimModItems.java",
+      "src/main/java/net/mcreator/retrodim/RetrodimMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/assets/retrodim/sounds.json",
+      "src/main/java/net/mcreator/retrodim/init/RetrodimModSounds.java",
+      "src/main/java/net/mcreator/retrodim/init/RetrodimModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Neon Blocks",
+        "children": []
+      },
+      {
+        "name": "Blocks Animated",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Decorations",
+        "children": []
+      },
+      {
+        "name": "Retro Blocks",
+        "children": []
+      },
+      {
+        "name": "NeonEdge Blocks",
+        "children": []
+      },
+      {
+        "name": "NeonDark Blocks",
+        "children": []
+      },
+      {
+        "name": "RetroDimension",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "retrodim",
+    "modName": "RetroDim",
+    "version": "1.0.7.4",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.retrodim"
+  },
+  "mcreatorVersion": 202600233518
+}

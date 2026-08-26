@@ -1,0 +1,10 @@
+{
+  "parent": "retrodim:custom/bitwisp",
+  "textures": {
+    "all": "retrodim:block/neoncyan",
+    "particle": "retrodim:block/neoncyan",
+    "0": "retrodim:block/neoncyan",
+    "1": "retrodim:block/neonmagenta"
+  },
+  "render_type": "cutout"
+}

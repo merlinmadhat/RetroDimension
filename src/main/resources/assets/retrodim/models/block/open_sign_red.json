@@ -1,0 +1,10 @@
+{
+  "parent": "retrodim:custom/opensignred",
+  "textures": {
+    "all": "retrodim:block/neonblue",
+    "particle": "retrodim:block/neonblue",
+    "0": "retrodim:block/pulsingblue2sa",
+    "1": "retrodim:block/neonred"
+  },
+  "render_type": "solid"
+}

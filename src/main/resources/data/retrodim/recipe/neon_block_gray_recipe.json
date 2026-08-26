@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:gray_stained_glass"
+    },
+    {
+      "item": "minecraft:gray_stained_glass"
+    },
+    {
+      "item": "minecraft:glow_ink_sac"
+    },
+    {
+      "item": "minecraft:gray_stained_glass"
+    },
+    {
+      "item": "minecraft:gray_stained_glass"
+    }
+  ],
+  "result": {
+    "id": "retrodim:neon_block_gray",
+    "count": 8
+  }
+}

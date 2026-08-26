@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "retrodim:block/flickeringpink3sa",
+    "particle": "retrodim:block/flickeringpink3sa"
+  },
+  "render_type": "solid"
+}

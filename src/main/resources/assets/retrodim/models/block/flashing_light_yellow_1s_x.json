@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "retrodim:block/flashinglightyellow1sx",
+    "particle": "retrodim:block/flashinglightyellow1sx"
+  },
+  "render_type": "solid"
+}

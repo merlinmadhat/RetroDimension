@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "Blocks.STAINED_GLASS#9",
+      "Blocks.STAINED_GLASS#9",
+      "Items.GLOW_INK_SAC",
+      "Blocks.STAINED_GLASS#9",
+      "Blocks.STAINED_GLASS#9",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:NeonBlockCyan",
+    "name": "neon_block_cyan_recipe",
+    "namespace": "mod"
+  }
+}

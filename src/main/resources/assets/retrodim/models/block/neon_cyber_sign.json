@@ -1,0 +1,11 @@
+{
+  "parent": "retrodim:custom/neoncybersign",
+  "textures": {
+    "all": "retrodim:block/neoncyan",
+    "particle": "retrodim:block/neoncyan",
+    "0": "retrodim:block/neonmagenta",
+    "1": "retrodim:block/darkgray",
+    "2": "retrodim:block/neoncyan"
+  },
+  "render_type": "solid"
+}

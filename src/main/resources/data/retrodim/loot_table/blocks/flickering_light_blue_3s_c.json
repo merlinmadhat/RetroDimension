@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "retrodim:blocks/flickering_light_blue_3s_c",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "retrodim:flickering_light_blue_3s_c"
+        }
+      ]
+    }
+  ]
+}

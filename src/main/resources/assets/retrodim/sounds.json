@@ -1,0 +1,19 @@
+{
+  "portalsynthwave": {
+    "sounds": [
+      {
+        "name": "retrodim:portalsynthwave",
+        "stream": true
+      }
+    ]
+  },
+  "plink": {
+    "subtitle": "subtitles.plink",
+    "sounds": [
+      {
+        "name": "retrodim:plink",
+        "stream": false
+      }
+    ]
+  }
+}

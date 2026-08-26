@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "neonmagenta",
+        "1": "darkgray",
+        "2": "neoncyan"
+      }
+    }
+  }
+}
