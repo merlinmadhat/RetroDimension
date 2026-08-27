@@ -208,5 +208,6 @@
   "block.retrodim.retro_red_block": "Retro Red Block",
   "block.retrodim.retro_yellow_block": "Retro Yellow Block",
   "block.retrodim.retro_white_block": "Retro White Block",
-  "block.retrodim.retro_pastel_block": "Retro Pastel Block"
+  "block.retrodim.retro_pastel_block": "Retro Pastel Block",
+  "subtitles.mplink": "plink"
 }
