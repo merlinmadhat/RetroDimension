@@ -13,6 +13,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
 import javax.annotation.Nullable;
@@ -33,7 +35,7 @@ public class RightClickTwistProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, BlockState blockstate, Entity entity) {
 		if (entity == null)
 			return;
-		if ((getPropertyByName(blockstate, "twist") instanceof IntegerProperty _getip1 ? blockstate.getValue(_getip1) : -1) >= 0) {
+		if ((world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(ResourceLocation.parse("retrodim:neon_twist")))) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == ItemStack.EMPTY.getItem()) {
 				if ((getPropertyByName(blockstate, "twist") instanceof IntegerProperty _getip6 ? blockstate.getValue(_getip6) : -1) == 0) {
 					{

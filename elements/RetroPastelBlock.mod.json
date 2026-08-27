@@ -603,12 +603,12 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": "BONE",
-    "isCustomSoundType": false,
-    "breakSound": "",
-    "fallSound": "",
-    "hitSound": "",
-    "placeSound": "",
-    "stepSound": "",
+    "isCustomSoundType": true,
+    "breakSound": "block.bone_block.break",
+    "fallSound": "block.bone_block.fall",
+    "hitSound": "block.bone_block.hit",
+    "placeSound": "CUSTOM:mplink",
+    "stepSound": "block.bone_block.step",
     "luminance": {
       "fixedValue": 1.0
     },
