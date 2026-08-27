@@ -44,6 +44,15 @@ public class NeonAnimateProcedure {
 						_player.getInventory().setChanged();
 				}
 			}
+			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == RetrodimModBlocks.FLASHING_BLUE_1S_X.get().asItem()) {
+				if (entity instanceof LivingEntity _entity) {
+					ItemStack _setstack17 = new ItemStack(RetrodimModBlocks.NEON_BLOCK_BLUE.get()).copy();
+					_setstack17.setCount((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount());
+					_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack17);
+					if (_entity instanceof Player _player)
+						_player.getInventory().setChanged();
+				}
+			}
 		}
 	}
 }
