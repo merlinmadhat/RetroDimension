@@ -16,4 +16,5 @@ public class RetrodimModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(Registries.SOUND_EVENT, RetrodimMod.MODID);
 	public static final DeferredHolder<SoundEvent, SoundEvent> PORTALSYNTHWAVE = REGISTRY.register("portalsynthwave", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("retrodim", "portalsynthwave")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> PLINK = REGISTRY.register("plink", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("retrodim", "plink")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> MPLINK = REGISTRY.register("mplink", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("retrodim", "mplink")));
 }

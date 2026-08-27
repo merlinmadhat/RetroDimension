@@ -15,5 +15,14 @@
         "stream": false
       }
     ]
+  },
+  "mplink": {
+    "subtitle": "subtitles.mplink",
+    "sounds": [
+      {
+        "name": "retrodim:mplink",
+        "stream": false
+      }
+    ]
   }
 }
