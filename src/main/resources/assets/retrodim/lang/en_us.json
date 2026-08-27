@@ -209,5 +209,7 @@
   "block.retrodim.retro_yellow_block": "Retro Yellow Block",
   "block.retrodim.retro_white_block": "Retro White Block",
   "block.retrodim.retro_pastel_block": "Retro Pastel Block",
-  "subtitles.mplink": "plink"
+  "subtitles.mplink": "plink",
+  "subtitles.thwump": "thwump",
+  "subtitles.err": "err-0r"
 }
