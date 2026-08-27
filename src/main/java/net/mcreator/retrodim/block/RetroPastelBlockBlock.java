@@ -1,5 +1,7 @@
 package net.mcreator.retrodim.block;
 
+import net.neoforged.neoforge.common.util.DeferredSoundType;
+
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
@@ -9,7 +11,6 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
@@ -21,6 +22,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.Containers;
 import net.minecraft.util.StringRepresentable;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.retrodim.procedures.RetroPastelBlockOnBlockHitByProjectileProcedure;
@@ -33,8 +36,11 @@ public class RetroPastelBlockBlock extends Block implements EntityBlock {
 	private static final VoxelShape SHAPE = box(0.1, 0.1, 0.1, 15.9, 15.9, 15.9);
 
 	public RetroPastelBlockBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.BONE_BLOCK).strength(1f, 10f).lightLevel(blockstate -> 1).noOcclusion().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
-				.isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of()
+				.sound(new DeferredSoundType(1.0f, 1.0f, () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.bone_block.break")), () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.bone_block.step")),
+						() -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("retrodim:mplink")), () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.bone_block.hit")),
+						() -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.bone_block.fall"))))
+				.strength(1f, 10f).lightLevel(blockstate -> 1).noOcclusion().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(COLOR, ColorProperty.BLUE));
 	}
 

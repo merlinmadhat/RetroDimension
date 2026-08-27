@@ -10,9 +10,9 @@ import net.minecraft.core.registries.BuiltInRegistries;
 public class NeonBlockLightGrayBlock extends Block {
 	public NeonBlockLightGrayBlock() {
 		super(BlockBehaviour.Properties.of()
-				.sound(new DeferredSoundType(1.0f, 1.0f, () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.glass.break")), () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.glass.step")),
-						() -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("retrodim:plink")), () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.glass.hit")),
-						() -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.glass.fall"))))
+				.sound(new DeferredSoundType(1.0f, 1.0f, () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.glass.break")), () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("retrodim:plink")),
+						() -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("retrodim:plink")), () -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("retrodim:plink")),
+						() -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("retrodim:plink"))))
 				.strength(1f, 10f).lightLevel(blockstate -> 15).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
 	}
 }

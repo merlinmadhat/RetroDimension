@@ -159,8 +159,8 @@
     "leavesParticleChance": 0.0,
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
-    "connectedSides": true,
+    "hasTransparency": true,
+    "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [

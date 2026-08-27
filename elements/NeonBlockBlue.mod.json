@@ -109,10 +109,10 @@
     "soundOnStep": "GLASS",
     "isCustomSoundType": true,
     "breakSound": "block.glass.break",
-    "fallSound": "block.glass.fall",
-    "hitSound": "block.glass.place",
+    "fallSound": "CUSTOM:plink",
+    "hitSound": "CUSTOM:plink",
     "placeSound": "CUSTOM:plink",
-    "stepSound": "block.glass.step",
+    "stepSound": "CUSTOM:plink",
     "luminance": {
       "fixedValue": 15.0
     },
