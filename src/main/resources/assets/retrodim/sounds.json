@@ -24,5 +24,23 @@
         "stream": false
       }
     ]
+  },
+  "thwump": {
+    "subtitle": "subtitles.thwump",
+    "sounds": [
+      {
+        "name": "retrodim:thwump",
+        "stream": false
+      }
+    ]
+  },
+  "err": {
+    "subtitle": "subtitles.err",
+    "sounds": [
+      {
+        "name": "retrodim:err",
+        "stream": false
+      }
+    ]
   }
 }
