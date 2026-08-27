@@ -4018,6 +4018,177 @@
         ]
       },
       "path": "~/Pastel Blocks"
+    },
+    {
+      "name": "PastelToggleColor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastel_toggle_color",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/retrodim/procedures/PastelToggleColorProcedure.java"
+        ]
+      },
+      "path": "~/Pastel Blocks"
+    },
+    {
+      "name": "PastelAddEnergy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastel_add_energy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "energyAdded",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/retrodim/procedures/PastelAddEnergyProcedure.java"
+        ]
+      },
+      "path": "~/Pastel Blocks"
+    },
+    {
+      "name": "RetroPastelBlockEntityFallsOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_pastel_block_entity_falls_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "distance",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/retrodim/procedures/RetroPastelBlockEntityFallsOnTheBlockProcedure.java"
+        ]
+      },
+      "path": "~/Pastel Blocks"
+    },
+    {
+      "name": "RetroPastelBlockOnBlockHitByProjectile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_pastel_block_on_block_hit_by_projectile",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/retrodim/procedures/RetroPastelBlockOnBlockHitByProjectileProcedure.java"
+        ]
+      },
+      "path": "~/Pastel Blocks"
+    },
+    {
+      "name": "RetroPastelBlockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retro_pastel_block_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/retrodim/procedures/RetroPastelBlockEntityWalksOnTheBlockProcedure.java"
+        ]
+      },
+      "path": "~/Pastel Blocks"
     }
   ],
   "variable_elements": [],

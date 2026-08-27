@@ -636,6 +636,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onEntityWalksOn": "RetroPastelBlockEntityWalksOnTheBlock",
+    "onHitByProjectile": "RetroPastelBlockOnBlockHitByProjectile",
+    "onEntityFallsOn": "RetroPastelBlockEntityFallsOnTheBlock",
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
