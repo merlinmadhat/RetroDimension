@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "color=blue": {
+      "model": "retrodim:block/retro_pastel_block_0"
+    },
+    "color=cyan": {
+      "model": "retrodim:block/retro_pastel_block_1"
+    },
+    "color=green": {
+      "model": "retrodim:block/retro_pastel_block_2"
+    },
+    "color=orange": {
+      "model": "retrodim:block/retro_pastel_block_3"
+    },
+    "color=pink": {
+      "model": "retrodim:block/retro_pastel_block_4"
+    },
+    "color=purple": {
+      "model": "retrodim:block/retro_pastel_block_5"
+    },
+    "color=red": {
+      "model": "retrodim:block/retro_pastel_block_6"
+    },
+    "color=tan": {
+      "model": "retrodim:block/retro_pastel_block_7"
+    },
+    "color=taupe": {
+      "model": "retrodim:block/retro_pastel_block_8"
+    },
+    "color=white": {
+      "model": "retrodim:block/retro_pastel_block_9"
+    },
+    "color=yellow": {
+      "model": "retrodim:block/retro_pastel_block_10"
+    }
+  }
+}

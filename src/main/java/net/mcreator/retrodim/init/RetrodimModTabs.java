@@ -228,6 +228,7 @@ public class RetrodimModTabs {
 			tabData.accept(RetrodimModBlocks.NEON_DARK_MAGENTA_BLOCK.get().asItem());
 			tabData.accept(RetrodimModBlocks.NEON_DARK_CYAN_BLOCK.get().asItem());
 			tabData.accept(RetrodimModBlocks.BIT_WISP.get().asItem());
+			tabData.accept(RetrodimModBlocks.RETRO_PASTEL_BLOCK.get().asItem());
 		}
 	}
 }

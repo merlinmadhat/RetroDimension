@@ -22,6 +22,7 @@ import net.mcreator.retrodim.init.RetrodimModTabs;
 import net.mcreator.retrodim.init.RetrodimModSounds;
 import net.mcreator.retrodim.init.RetrodimModItems;
 import net.mcreator.retrodim.init.RetrodimModBlocks;
+import net.mcreator.retrodim.init.RetrodimModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Queue;
@@ -45,6 +46,7 @@ public class RetrodimMod {
 		modEventBus.addListener(this::registerNetworking);
 		RetrodimModSounds.REGISTRY.register(modEventBus);
 		RetrodimModBlocks.REGISTRY.register(modEventBus);
+		RetrodimModBlockEntities.REGISTRY.register(modEventBus);
 		RetrodimModItems.REGISTRY.register(modEventBus);
 		RetrodimModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init

@@ -221,6 +221,7 @@ public class RetrodimModItems {
 	public static final DeferredItem<Item> RETRO_RED_BLOCK;
 	public static final DeferredItem<Item> RETRO_YELLOW_BLOCK;
 	public static final DeferredItem<Item> RETRO_WHITE_BLOCK;
+	public static final DeferredItem<Item> RETRO_PASTEL_BLOCK;
 	static {
 		RETRODIMENSION = REGISTRY.register("retrodimension", RetrodimensionItem::new);
 		RETRO_PURPLE_BLOCK = block(RetrodimModBlocks.RETRO_PURPLE_BLOCK);
@@ -427,6 +428,7 @@ public class RetrodimModItems {
 		RETRO_RED_BLOCK = block(RetrodimModBlocks.RETRO_RED_BLOCK);
 		RETRO_YELLOW_BLOCK = block(RetrodimModBlocks.RETRO_YELLOW_BLOCK);
 		RETRO_WHITE_BLOCK = block(RetrodimModBlocks.RETRO_WHITE_BLOCK);
+		RETRO_PASTEL_BLOCK = block(RetrodimModBlocks.RETRO_PASTEL_BLOCK);
 	}
 
 	// Start of user code block custom items
