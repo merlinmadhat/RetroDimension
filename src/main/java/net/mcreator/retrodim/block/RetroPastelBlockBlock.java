@@ -3,6 +3,7 @@ package net.mcreator.retrodim.block;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -15,11 +16,16 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.entity.projectile.Projectile;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.Containers;
 import net.minecraft.util.StringRepresentable;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.retrodim.procedures.RetroPastelBlockOnBlockHitByProjectileProcedure;
+import net.mcreator.retrodim.procedures.RetroPastelBlockEntityWalksOnTheBlockProcedure;
+import net.mcreator.retrodim.procedures.RetroPastelBlockEntityFallsOnTheBlockProcedure;
 import net.mcreator.retrodim.block.entity.RetroPastelBlockBlockEntity;
 
 public class RetroPastelBlockBlock extends Block implements EntityBlock {
@@ -54,6 +60,23 @@ public class RetroPastelBlockBlock extends Block implements EntityBlock {
 		if (state == null)
 			return null;
 		return state.setValue(COLOR, ColorProperty.BLUE);
+	}
+
+	@Override
+	public void stepOn(Level world, BlockPos pos, BlockState blockstate, Entity entity) {
+		super.stepOn(world, pos, blockstate, entity);
+		RetroPastelBlockEntityWalksOnTheBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+	}
+
+	@Override
+	public void fallOn(Level world, BlockState blockstate, BlockPos pos, Entity entity, float distance) {
+		super.fallOn(world, blockstate, pos, entity, distance);
+		RetroPastelBlockEntityFallsOnTheBlockProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity, distance);
+	}
+
+	@Override
+	public void onProjectileHit(Level world, BlockState blockstate, BlockHitResult hit, Projectile entity) {
+		RetroPastelBlockOnBlockHitByProjectileProcedure.execute(world, hit.getBlockPos().getX(), hit.getBlockPos().getY(), hit.getBlockPos().getZ(), entity);
 	}
 
 	@Override
