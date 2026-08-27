@@ -218,6 +218,7 @@ public class RetrodimModBlocks {
 	public static final DeferredBlock<Block> RETRO_RED_BLOCK;
 	public static final DeferredBlock<Block> RETRO_YELLOW_BLOCK;
 	public static final DeferredBlock<Block> RETRO_WHITE_BLOCK;
+	public static final DeferredBlock<Block> RETRO_PASTEL_BLOCK;
 	static {
 		RETRODIMENSION_PORTAL = REGISTRY.register("retrodimension_portal", RetrodimensionPortalBlock::new);
 		RETRO_PURPLE_BLOCK = REGISTRY.register("retro_purple_block", RetroPurpleBlockBlock::new);
@@ -424,6 +425,7 @@ public class RetrodimModBlocks {
 		RETRO_RED_BLOCK = REGISTRY.register("retro_red_block", RetroRedBlockBlock::new);
 		RETRO_YELLOW_BLOCK = REGISTRY.register("retro_yellow_block", RetroYellowBlockBlock::new);
 		RETRO_WHITE_BLOCK = REGISTRY.register("retro_white_block", RetroWhiteBlockBlock::new);
+		RETRO_PASTEL_BLOCK = REGISTRY.register("retro_pastel_block", RetroPastelBlockBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
