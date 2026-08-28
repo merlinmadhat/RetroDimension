@@ -168,7 +168,7 @@
   "block.retrodim.flashing_purple_1s_y": "Flashing Purple 1sY",
   "block.retrodim.flashing_purple_1s_z": "Flashing Purple 1sZ",
   "block.retrodim.flashing_purple_2s_a": "Flashing Purple 2sA",
-  "block.retrodim.flashing_purple_2s_b": "Flashing Red 2sB",
+  "block.retrodim.flashing_purple_2s_b": "Flashing Purple 2sB",
   "block.retrodim.flickering_purple_3s_a": "Flickering Purple 3sA",
   "block.retrodim.flickering_purple_3s_b": "Flickering Purple 3sB",
   "block.retrodim.flickering_purple_3s_c": "Flickering Purple 3sC",
@@ -211,5 +211,6 @@
   "block.retrodim.retro_pastel_block": "Retro Pastel Block",
   "subtitles.mplink": "plink",
   "subtitles.thwump": "thwump",
-  "subtitles.err": "err-0r"
+  "subtitles.err": "err-0r",
+  "subtitles.swap": ""
 }

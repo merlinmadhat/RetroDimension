@@ -42,5 +42,13 @@
         "stream": false
       }
     ]
+  },
+  "swap": {
+    "sounds": [
+      {
+        "name": "retrodim:swap",
+        "stream": false
+      }
+    ]
   }
 }

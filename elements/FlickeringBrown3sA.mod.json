@@ -88,12 +88,12 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": "GLASS",
-    "isCustomSoundType": false,
-    "breakSound": "",
-    "fallSound": "",
-    "hitSound": "",
-    "placeSound": "",
-    "stepSound": "",
+    "isCustomSoundType": true,
+    "breakSound": "block.glass.break",
+    "fallSound": "CUSTOM:plink",
+    "hitSound": "CUSTOM:plink",
+    "placeSound": "CUSTOM:plink",
+    "stepSound": "CUSTOM:plink",
     "luminance": {
       "fixedValue": 15.0
     },
