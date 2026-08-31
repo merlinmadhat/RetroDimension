@@ -1,0 +1,9 @@
+{
+  "parent": "retrodim:custom/neontwist1",
+  "textures": {
+    "all": "retrodim:block/neonedgepink",
+    "particle": "retrodim:block/neonedgepink",
+    "missing": "retrodim:block/neonedgepink"
+  },
+  "render_type": "solid"
+}

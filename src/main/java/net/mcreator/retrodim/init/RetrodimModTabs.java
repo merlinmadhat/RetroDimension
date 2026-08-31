@@ -229,6 +229,37 @@ public class RetrodimModTabs {
 			tabData.accept(RetrodimModBlocks.NEON_DARK_CYAN_BLOCK.get().asItem());
 			tabData.accept(RetrodimModBlocks.BIT_WISP.get().asItem());
 			tabData.accept(RetrodimModBlocks.RETRO_PASTEL_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_EDGE_BLUE_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_EDGE_BROWN_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_EDGE_BUBBLEGUM_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_EDGE_GRAY_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_EDGE_GREEN_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_EDGE_LIGHT_BLUE_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_EDGE_LIGHT_GRAY_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_EDGE_LIGHT_YELLOW_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_EDGE_LIME_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_EDGE_ORANGE_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_EDGE_PINK_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_EDGE_PURPLE_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_EDGE_RED_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_EDGE_WHITE_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_EDGE_YELLOW_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_EDGE_BLACK_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_DARK_BLUE_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_DARK_BROWN_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_DARK_BUBBLEGUM_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_DARK_GRAY_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_DARK_GREEN_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_DARK_LIGHT_BLUE_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_DARK_LIGHT_GRAY_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_DARK_LIGHT_YELLOW_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_DARK_LIME_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_DARK_ORANGE_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_DARK_PINK_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_DARK_PURPLE_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_DARK_RED_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_DARK_WHITE_BLOCK.get().asItem());
+			tabData.accept(RetrodimModBlocks.NEON_DARK_YELLOW_BLOCK.get().asItem());
 		}
 	}
 }
