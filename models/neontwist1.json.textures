@@ -23,6 +23,192 @@
       "map": {
         "missing": "neondarkmagenta"
       }
+    },
+    "blue": {
+      "name": "blue",
+      "map": {
+        "missing": "neonedgeblue"
+      }
+    },
+    "black": {
+      "name": "black",
+      "map": {
+        "missing": "neonedgeblack"
+      }
+    },
+    "brown": {
+      "name": "brown",
+      "map": {
+        "missing": "neonedgebrown"
+      }
+    },
+    "bubblegum": {
+      "name": "bubblegum",
+      "map": {
+        "missing": "neonedgebubblegum"
+      }
+    },
+    "gray": {
+      "name": "gray",
+      "map": {
+        "missing": "neonedgegray"
+      }
+    },
+    "green": {
+      "name": "green",
+      "map": {
+        "missing": "neonedgegreen"
+      }
+    },
+    "lightblue": {
+      "name": "lightblue",
+      "map": {
+        "missing": "neonedgelightblue"
+      }
+    },
+    "lightgray": {
+      "name": "lightgray",
+      "map": {
+        "missing": "neonedgelightgray"
+      }
+    },
+    "lightyellow": {
+      "name": "lightyellow",
+      "map": {
+        "missing": "neonedgelightyellow"
+      }
+    },
+    "lime": {
+      "name": "lime",
+      "map": {
+        "missing": "neonedgelime"
+      }
+    },
+    "orange": {
+      "name": "orange",
+      "map": {
+        "missing": "neonedgeorange"
+      }
+    },
+    "pink": {
+      "name": "pink",
+      "map": {
+        "missing": "neonedgepink"
+      }
+    },
+    "purple": {
+      "name": "purple",
+      "map": {
+        "missing": "neonedgepurple"
+      }
+    },
+    "red": {
+      "name": "red",
+      "map": {
+        "missing": "neonedgered"
+      }
+    },
+    "white": {
+      "name": "white",
+      "map": {
+        "missing": "neonedgewhite"
+      }
+    },
+    "yellow": {
+      "name": "yellow",
+      "map": {
+        "missing": "neonedgeyellow"
+      }
+    },
+    "darkblue": {
+      "name": "darkblue",
+      "map": {
+        "missing": "neondarkblue"
+      }
+    },
+    "darkbrown": {
+      "name": "darkbrown",
+      "map": {
+        "missing": "neondarkbrown"
+      }
+    },
+    "darkbubblegum": {
+      "name": "darkbubblegum",
+      "map": {
+        "missing": "neondarkbubblegum"
+      }
+    },
+    "darkgray": {
+      "name": "darkgray",
+      "map": {
+        "missing": "neondarkgray"
+      }
+    },
+    "darklightblue": {
+      "name": "darklightblue",
+      "map": {
+        "missing": "neondarklightblue"
+      }
+    },
+    "darklightgray": {
+      "name": "darklightgray",
+      "map": {
+        "missing": "neondarklightgray"
+      }
+    },
+    "darklightyellow": {
+      "name": "darklightyellow",
+      "map": {
+        "missing": "neondarklightyellow"
+      }
+    },
+    "darklime": {
+      "name": "darklime",
+      "map": {
+        "missing": "neondarklime"
+      }
+    },
+    "darkorange": {
+      "name": "darkorange",
+      "map": {
+        "missing": "neondarkorange"
+      }
+    },
+    "darkpink": {
+      "name": "darkpink",
+      "map": {
+        "missing": "neondarkpink"
+      }
+    },
+    "darkpurple": {
+      "name": "darkpurple",
+      "map": {
+        "missing": "neondarkpurple"
+      }
+    },
+    "darkred": {
+      "name": "darkred",
+      "map": {
+        "missing": "neondarkred"
+      }
+    },
+    "darkwhite": {
+      "name": "darkwhite",
+      "map": {
+        "missing": "neondarkwhite"
+      }
+    },
+    "darkyellow": {
+      "name": "darkyellow",
+      "map": {
+        "missing": "neondarkyellow"
+      }
+    },
+    "darkgreen": {
+      "name": "darkgreen",
+      "map": {
+        "missing": "neondarkgreen"
+      }
     }
   }
 }

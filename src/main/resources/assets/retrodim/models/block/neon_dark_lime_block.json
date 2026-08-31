@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "retrodim:block/neondarklime",
+    "particle": "retrodim:block/neondarklime"
+  },
+  "render_type": "solid"
+}

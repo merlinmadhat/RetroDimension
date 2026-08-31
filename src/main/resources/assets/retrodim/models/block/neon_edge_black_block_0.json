@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "retrodim:block/neonedgeblack",
+    "particle": "retrodim:block/neonedgeblack"
+  },
+  "render_type": "solid"
+}

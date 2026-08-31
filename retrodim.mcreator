@@ -4204,6 +4204,657 @@
         ]
       },
       "path": "~/Pastel Blocks"
+    },
+    {
+      "name": "NeonEdgeBlueBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_blue_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_edge_blue_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_blue_block_3.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_blue_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_blue_block_2.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgeBlueBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/item/neon_edge_blue_block.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_blue_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_blue_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_blue_block.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonEdgeBrownBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_brown_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_edge_brown_block_3.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgeBrownBlockBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_brown_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_brown_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_brown_block_0.json",
+          "src/main/resources/assets/retrodim/models/item/neon_edge_brown_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_brown_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_brown_block_2.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_brown_block_1.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonEdgeBubblegumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_bubblegum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_edge_bubblegum_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_bubblegum_block_2.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_bubblegum_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_bubblegum_block_1.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgeBubblegumBlockBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_bubblegum_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_bubblegum_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_bubblegum_block_3.json",
+          "src/main/resources/assets/retrodim/models/item/neon_edge_bubblegum_block.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonEdgeGrayBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_gray_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_gray_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_gray_block_2.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_gray_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_gray_block_1.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_gray_block.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgeGrayBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_gray_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_gray_block_3.json",
+          "src/main/resources/assets/retrodim/models/item/neon_edge_gray_block.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonEdgeGreenBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_green_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_green_block.json",
+          "src/main/resources/assets/retrodim/models/item/neon_edge_green_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_green_block_2.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_green_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_green_block_0.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_green_block.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgeGreenBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_green_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_green_block_3.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonEdgeLightBlueBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_light_blue_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_edge_light_blue_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_light_blue_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_light_blue_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_light_blue_block_3.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgeLightBlueBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/item/neon_edge_light_blue_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_light_blue_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_light_blue_block_2.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_light_blue_block.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonEdgeLightGrayBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_light_gray_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_edge_light_gray_block_1.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_light_gray_block.json",
+          "src/main/resources/assets/retrodim/models/item/neon_edge_light_gray_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_light_gray_block.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgeLightGrayBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_light_gray_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_light_gray_block_3.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_light_gray_block_2.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_light_gray_block.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonEdgeLightYellowBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_light_yellow_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/neon_edge_light_yellow_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_light_yellow_block.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_light_yellow_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_light_yellow_block_2.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgeLightYellowBlockBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_light_yellow_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_light_yellow_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_light_yellow_block_3.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_light_yellow_block_0.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonEdgeLimeBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_lime_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_lime_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_lime_block_3.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_lime_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_lime_block_0.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_lime_block.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgeLimeBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_lime_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_lime_block_2.json",
+          "src/main/resources/assets/retrodim/models/item/neon_edge_lime_block.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonEdgeOrangeBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_orange_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_edge_orange_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_orange_block_3.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_orange_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_orange_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_orange_block_0.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_orange_block.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgeOrangeBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/item/neon_edge_orange_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_orange_block_2.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonEdgePinkBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_pink_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_pink_block.json",
+          "src/main/resources/assets/retrodim/models/item/neon_edge_pink_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_pink_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_pink_block_2.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_pink_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_pink_block_3.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgePinkBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_pink_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_pink_block.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonEdgePurpleBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_purple_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_edge_purple_block_3.json",
+          "src/main/resources/assets/retrodim/models/item/neon_edge_purple_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_purple_block_0.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_purple_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_purple_block_2.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_purple_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_purple_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_purple_block.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgePurpleBlockBlock.java"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonEdgeRedBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_red_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_edge_red_block_0.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgeRedBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_red_block_3.json",
+          "src/main/resources/assets/retrodim/models/item/neon_edge_red_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_red_block_1.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_red_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_red_block_2.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_red_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_red_block.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonEdgeWhiteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_white_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_edge_white_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_white_block_3.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_white_block.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgeWhiteBlockBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_white_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_white_block_2.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_white_block.json",
+          "src/main/resources/assets/retrodim/models/item/neon_edge_white_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_white_block_0.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonEdgeYellowBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_yellow_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgeYellowBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/item/neon_edge_yellow_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_yellow_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_yellow_block_3.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_yellow_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_yellow_block_2.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_yellow_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_yellow_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_yellow_block_1.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonEdgeBlackBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_black_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_edge_black_block_2.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_edge_black_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_edge_black_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_black_block_3.json",
+          "src/main/resources/assets/retrodim/models/item/neon_edge_black_block.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonEdgeBlackBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_black_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_black_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_edge_black_block_0.json"
+        ]
+      },
+      "path": "~/NeonEdge Blocks"
+    },
+    {
+      "name": "NeonDarkBlueBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_blue_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/neon_dark_blue_block.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkBlueBlockBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_blue_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_blue_block_3.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_blue_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_blue_block_2.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_blue_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_blue_block_1.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_blue_block.json"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "NeonDarkBrownBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_brown_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_dark_brown_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_brown_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_brown_block_3.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_brown_block_1.json",
+          "src/main/resources/assets/retrodim/models/item/neon_dark_brown_block.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_brown_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_brown_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_brown_block_2.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkBrownBlockBlock.java"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "NeonDarkBubblegumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_bubblegum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_dark_bubblegum_block_0.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_bubblegum_block.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkBubblegumBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_bubblegum_block_3.json",
+          "src/main/resources/assets/retrodim/models/item/neon_dark_bubblegum_block.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_bubblegum_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_bubblegum_block_2.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_bubblegum_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_bubblegum_block_1.json"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "NeonDarkGrayBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_gray_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_dark_gray_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_gray_block_3.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_gray_block_2.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkGrayBlockBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_gray_block.json",
+          "src/main/resources/assets/retrodim/models/item/neon_dark_gray_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_gray_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_gray_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_gray_block.json"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "NeonDarkGreenBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_green_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_dark_green_block_1.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkGreenBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_green_block.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_green_block.json",
+          "src/main/resources/assets/retrodim/models/item/neon_dark_green_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_green_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_green_block_3.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_green_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_green_block_2.json"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "NeonDarkLightBlueBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_light_blue_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_dark_light_blue_block_2.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_light_blue_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_light_blue_block_1.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_light_blue_block.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkLightBlueBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/item/neon_dark_light_blue_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_light_blue_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_light_blue_block_3.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_light_blue_block.json"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "NeonDarkLightGrayBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_light_gray_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkLightGrayBlockBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_light_gray_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_light_gray_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_light_gray_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_light_gray_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_light_gray_block_3.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_light_gray_block_2.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_light_gray_block.json",
+          "src/main/resources/assets/retrodim/models/item/neon_dark_light_gray_block.json"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "NeonDarkLightYellowBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_light_yellow_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_dark_light_yellow_block_3.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_light_yellow_block.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkLightYellowBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/item/neon_dark_light_yellow_block.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_light_yellow_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_light_yellow_block_2.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_light_yellow_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_light_yellow_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_light_yellow_block_0.json"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "NeonDarkLimeBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_lime_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_dark_lime_block_2.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_lime_block_1.json",
+          "src/main/resources/assets/retrodim/models/item/neon_dark_lime_block.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_lime_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_lime_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_lime_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_lime_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_lime_block_3.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkLimeBlockBlock.java"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "NeonDarkOrangeBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_orange_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkOrangeBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/item/neon_dark_orange_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_orange_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_orange_block_2.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_orange_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_orange_block_3.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_orange_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_orange_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_orange_block_0.json"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "NeonDarkPinkBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_pink_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkPinkBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_pink_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_pink_block_3.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_pink_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_pink_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_pink_block.json",
+          "src/main/resources/assets/retrodim/models/item/neon_dark_pink_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_pink_block_2.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_pink_block.json"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "NeonDarkPurpleBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_purple_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_dark_purple_block.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkPurpleBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_purple_block_2.json",
+          "src/main/resources/assets/retrodim/models/item/neon_dark_purple_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_purple_block_0.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_purple_block_1.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_purple_block.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_purple_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_purple_block_3.json"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "NeonDarkRedBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_red_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_dark_red_block_0.json",
+          "src/main/resources/assets/retrodim/models/item/neon_dark_red_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_red_block_3.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkRedBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_red_block.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_red_block.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_red_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_red_block_2.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_red_block_1.json"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "NeonDarkWhiteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_white_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/neon_dark_white_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_white_block_3.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_white_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_white_block_0.json",
+          "src/main/resources/assets/retrodim/models/item/neon_dark_white_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_white_block_1.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_white_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_white_block_2.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkWhiteBlockBlock.java"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "NeonDarkYellowBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_yellow_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/neon_dark_yellow_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_yellow_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_yellow_block_2.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_yellow_block_1.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_yellow_block_0.json",
+          "src/main/java/net/mcreator/retrodim/block/NeonDarkYellowBlockBlock.java",
+          "src/main/resources/assets/retrodim/models/item/neon_dark_yellow_block.json",
+          "src/main/resources/assets/retrodim/models/block/neon_dark_yellow_block_3.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_dark_yellow_block.json"
+        ]
+      },
+      "path": "~/NeonDark Blocks"
     }
   ],
   "variable_elements": [],
@@ -4454,13 +5105,75 @@
       "CUSTOM:NeonEdgeCyanBlock",
       "CUSTOM:NeonEdgeMagentaBlock",
       "CUSTOM:NeonDarkMagentaBlock",
-      "CUSTOM:NeonDarkCyanBlock"
+      "CUSTOM:NeonDarkCyanBlock",
+      "CUSTOM:NeonEdgeBlackBlock",
+      "CUSTOM:NeonEdgeBlueBlock",
+      "CUSTOM:NeonEdgeBrownBlock",
+      "CUSTOM:NeonEdgeBubblegumBlock",
+      "CUSTOM:NeonEdgeGrayBlock",
+      "CUSTOM:NeonEdgeGreenBlock",
+      "CUSTOM:NeonEdgeLightBlueBlock",
+      "CUSTOM:NeonEdgeLightGrayBlock",
+      "CUSTOM:NeonEdgeLightYellowBlock",
+      "CUSTOM:NeonEdgeLimeBlock",
+      "CUSTOM:NeonEdgeOrangeBlock",
+      "CUSTOM:NeonEdgePinkBlock",
+      "CUSTOM:NeonEdgePurpleBlock",
+      "CUSTOM:NeonEdgeRedBlock",
+      "CUSTOM:NeonEdgeWhiteBlock",
+      "CUSTOM:NeonEdgeYellowBlock",
+      "CUSTOM:NeonDarkBlueBlock",
+      "CUSTOM:NeonDarkBrownBlock",
+      "CUSTOM:NeonDarkBubblegumBlock",
+      "CUSTOM:NeonDarkGrayBlock",
+      "CUSTOM:NeonDarkGreenBlock",
+      "CUSTOM:NeonDarkLightBlueBlock",
+      "CUSTOM:NeonDarkLightGrayBlock",
+      "CUSTOM:NeonDarkLightYellowBlock",
+      "CUSTOM:NeonDarkLimeBlock",
+      "CUSTOM:NeonDarkOrangeBlock",
+      "CUSTOM:NeonDarkPinkBlock",
+      "CUSTOM:NeonDarkPurpleBlock",
+      "CUSTOM:NeonDarkRedBlock",
+      "CUSTOM:NeonDarkWhiteBlock",
+      "CUSTOM:NeonDarkYellowBlock"
     ],
     "BLOCKS:framedblocks:frameable": [
       "CUSTOM:NeonEdgeCyanBlock",
       "CUSTOM:NeonEdgeMagentaBlock",
       "CUSTOM:NeonDarkMagentaBlock",
-      "CUSTOM:NeonDarkCyanBlock"
+      "CUSTOM:NeonDarkCyanBlock",
+      "CUSTOM:NeonEdgeBlackBlock",
+      "CUSTOM:NeonEdgeBlueBlock",
+      "CUSTOM:NeonEdgeBrownBlock",
+      "CUSTOM:NeonEdgeBubblegumBlock",
+      "CUSTOM:NeonEdgeGrayBlock",
+      "CUSTOM:NeonEdgeGreenBlock",
+      "CUSTOM:NeonEdgeLightBlueBlock",
+      "CUSTOM:NeonEdgeLightGrayBlock",
+      "CUSTOM:NeonEdgeLightYellowBlock",
+      "CUSTOM:NeonEdgeLimeBlock",
+      "CUSTOM:NeonEdgeOrangeBlock",
+      "CUSTOM:NeonEdgePinkBlock",
+      "CUSTOM:NeonEdgePurpleBlock",
+      "CUSTOM:NeonEdgeRedBlock",
+      "CUSTOM:NeonEdgeWhiteBlock",
+      "CUSTOM:NeonEdgeYellowBlock",
+      "CUSTOM:NeonDarkBlueBlock",
+      "CUSTOM:NeonDarkBrownBlock",
+      "CUSTOM:NeonDarkBubblegumBlock",
+      "CUSTOM:NeonDarkGrayBlock",
+      "CUSTOM:NeonDarkGreenBlock",
+      "CUSTOM:NeonDarkLightBlueBlock",
+      "CUSTOM:NeonDarkLightGrayBlock",
+      "CUSTOM:NeonDarkLightYellowBlock",
+      "CUSTOM:NeonDarkLimeBlock",
+      "CUSTOM:NeonDarkOrangeBlock",
+      "CUSTOM:NeonDarkPinkBlock",
+      "CUSTOM:NeonDarkPurpleBlock",
+      "CUSTOM:NeonDarkRedBlock",
+      "CUSTOM:NeonDarkWhiteBlock",
+      "CUSTOM:NeonDarkYellowBlock"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~RetroPastelBlock@CUSTOM:RetroPastelBlock"
@@ -4682,7 +5395,38 @@
       "subtitles.mplink": "plink",
       "subtitles.thwump": "thwump",
       "subtitles.err": "err-0r",
-      "subtitles.swap": ""
+      "subtitles.swap": "",
+      "block.retrodim.neon_edge_blue_block": "Neon Edge Blue Block",
+      "block.retrodim.neon_edge_brown_block": "Neon Edge Brown Block",
+      "block.retrodim.neon_edge_bubblegum_block": "Neon Edge Bubblegum Block",
+      "block.retrodim.neon_edge_gray_block": "Neon Edge Gray Block",
+      "block.retrodim.neon_edge_green_block": "Neon Edge Green Block",
+      "block.retrodim.neon_edge_light_blue_block": "Neon Edge Light Blue Block",
+      "block.retrodim.neon_edge_light_gray_block": "Neon Edge Light Gray Block",
+      "block.retrodim.neon_edge_light_yellow_block": "Neon Edge Light Yellow Block",
+      "block.retrodim.neon_edge_lime_block": "Neon Edge Lime Block",
+      "block.retrodim.neon_edge_orange_block": "Neon Edge Orange Block",
+      "block.retrodim.neon_edge_pink_block": "Neon Edge Pink Block",
+      "block.retrodim.neon_edge_purple_block": "Neon Edge Purple Block",
+      "block.retrodim.neon_edge_red_block": "Neon Edge Red Block",
+      "block.retrodim.neon_edge_white_block": "Neon Edge White Block",
+      "block.retrodim.neon_edge_yellow_block": "Neon Edge Yellow Block",
+      "block.retrodim.neon_edge_black_block": "Neon Edge Black Block",
+      "block.retrodim.neon_dark_blue_block": "Neon Dark Blue Block",
+      "block.retrodim.neon_dark_brown_block": "Neon Dark Brown Block",
+      "block.retrodim.neon_dark_bubblegum_block": "Neon Dark Bubblegum Block",
+      "block.retrodim.neon_dark_gray_block": "Neon Dark Gray Block",
+      "block.retrodim.neon_dark_green_block": "Neon Dark Green Block",
+      "block.retrodim.neon_dark_light_blue_block": "Neon Dark Light Blue Block",
+      "block.retrodim.neon_dark_light_gray_block": "Neon Dark Light Gray Block",
+      "block.retrodim.neon_dark_light_yellow_block": "Neon Dark Light Yellow Block",
+      "block.retrodim.neon_dark_lime_block": "Neon Dark Lime Block",
+      "block.retrodim.neon_dark_orange_block": "Neon Dark Orange Block",
+      "block.retrodim.neon_dark_pink_block": "Neon Dark Pink Block",
+      "block.retrodim.neon_dark_purple_block": "Neon Dark Purple Block",
+      "block.retrodim.neon_dark_red_block": "Neon Dark Red Block",
+      "block.retrodim.neon_dark_white_block": "Neon Dark White Block",
+      "block.retrodim.neon_dark_yellow_block": "Neon Dark Yellow Block"
     }
   },
   "metadata": {

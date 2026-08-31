@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "twist=0": {
+      "model": "retrodim:block/neon_edge_lime_block_0"
+    },
+    "twist=1": {
+      "model": "retrodim:block/neon_edge_lime_block_1"
+    },
+    "twist=2": {
+      "model": "retrodim:block/neon_edge_lime_block_2"
+    },
+    "twist=3": {
+      "model": "retrodim:block/neon_edge_lime_block_3"
+    }
+  }
+}
