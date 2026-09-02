@@ -4855,6 +4855,143 @@
         ]
       },
       "path": "~/NeonDark Blocks"
+    },
+    {
+      "name": "Bitwisp1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bitwisp_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/bitwisp_1.json",
+          "src/main/resources/assets/retrodim/models/block/bitwisp_1.json",
+          "src/main/java/net/mcreator/retrodim/block/Bitwisp1Block.java",
+          "src/main/java/net/mcreator/retrodim/block/entity/Bitwisp1BlockEntity.java",
+          "src/main/resources/assets/retrodim/models/item/bitwisp_1.json",
+          "src/main/java/net/mcreator/retrodim/client/renderer/block/Bitwisp1Renderer.java",
+          "src/main/resources/assets/retrodim/blockstates/bitwisp_1.json"
+        ]
+      },
+      "path": "~/Decorations"
+    },
+    {
+      "name": "ArcadeCabinetTop",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_cabinet_top",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/ArcadeCabinetTopBlock.java",
+          "src/main/resources/assets/retrodim/blockstates/arcade_cabinet_top.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/arcade_cabinet_top.json",
+          "src/main/resources/assets/retrodim/models/item/arcade_cabinet_top.json",
+          "src/main/resources/assets/retrodim/models/block/arcade_cabinet_top.json"
+        ]
+      },
+      "path": "~/Decorations"
+    },
+    {
+      "name": "ArcadeCabinetBlockIsPlacedBy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_cabinet_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/retrodim/procedures/ArcadeCabinetBlockIsPlacedByProcedure.java"
+        ]
+      },
+      "path": "~/Decorations"
+    },
+    {
+      "name": "ArcadeCabinetTopBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_cabinet_top_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/retrodim/procedures/ArcadeCabinetTopBlockDestroyedByPlayerProcedure.java"
+        ]
+      },
+      "path": "~/Decorations"
+    },
+    {
+      "name": "ArcadeCabinetBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_cabinet_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/retrodim/procedures/ArcadeCabinetBlockDestroyedByPlayerProcedure.java"
+        ]
+      },
+      "path": "~/Decorations"
     }
   ],
   "variable_elements": [],
@@ -5426,7 +5563,9 @@
       "block.retrodim.neon_dark_purple_block": "Neon Dark Purple Block",
       "block.retrodim.neon_dark_red_block": "Neon Dark Red Block",
       "block.retrodim.neon_dark_white_block": "Neon Dark White Block",
-      "block.retrodim.neon_dark_yellow_block": "Neon Dark Yellow Block"
+      "block.retrodim.neon_dark_yellow_block": "Neon Dark Yellow Block",
+      "block.retrodim.bitwisp_1": "Bitwisp 1",
+      "block.retrodim.arcade_cabinet_top": "Arcade Cabinet"
     }
   },
   "metadata": {
@@ -5439,6 +5578,7 @@
       "src/main/java/net/mcreator/retrodim/init/RetrodimModTabs.java",
       "src/main/java/net/mcreator/retrodim/RetrodimMod.java",
       "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/retrodim/init/RetrodimModModels.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/assets/retrodim/sounds.json"
     ]

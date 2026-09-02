@@ -243,5 +243,7 @@
   "block.retrodim.neon_dark_purple_block": "Neon Dark Purple Block",
   "block.retrodim.neon_dark_red_block": "Neon Dark Red Block",
   "block.retrodim.neon_dark_white_block": "Neon Dark White Block",
-  "block.retrodim.neon_dark_yellow_block": "Neon Dark Yellow Block"
+  "block.retrodim.neon_dark_yellow_block": "Neon Dark Yellow Block",
+  "block.retrodim.bitwisp_1": "Bitwisp 1",
+  "block.retrodim.arcade_cabinet_top": "Arcade Cabinet"
 }

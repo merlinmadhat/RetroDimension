@@ -30,7 +30,7 @@
       {
         "mx": 0.0,
         "my": 0.0,
-        "mz": 0.0,
+        "mz": 0.8,
         "Mx": 16.0,
         "My": 16.0,
         "Mz": 16.0,
@@ -121,6 +121,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": "ArcadeCabinetBlockDestroyedByPlayer",
+    "onBlockPlayedBy": "ArcadeCabinetBlockIsPlacedBy",
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

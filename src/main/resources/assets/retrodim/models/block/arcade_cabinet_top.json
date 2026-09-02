@@ -1,0 +1,9 @@
+{
+  "parent": "retrodim:custom/arcadecabinettop",
+  "textures": {
+    "all": "retrodim:block/arcadecabinet",
+    "particle": "retrodim:block/arcadecabinet",
+    "0": "retrodim:block/arcadecabinet"
+  },
+  "render_type": "solid"
+}
