@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "retrodim:block/arcade_cabinet_top"
+    },
+    "facing=east": {
+      "model": "retrodim:block/arcade_cabinet_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "retrodim:block/arcade_cabinet_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "retrodim:block/arcade_cabinet_top",
+      "y": 270
+    }
+  }
+}

@@ -30,7 +30,7 @@
       {
         "mx": 0.0,
         "my": 0.0,
-        "mz": 0.0,
+        "mz": 0.8,
         "Mx": 16.0,
         "My": 16.0,
         "Mz": 16.0,
@@ -88,12 +88,12 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": "GLASS",
-    "isCustomSoundType": false,
-    "breakSound": "",
-    "fallSound": "",
-    "hitSound": "",
-    "placeSound": "",
-    "stepSound": "",
+    "isCustomSoundType": true,
+    "breakSound": "block.note_block.bit",
+    "fallSound": "block.glass.fall",
+    "hitSound": "block.note_block.bit",
+    "placeSound": "block.note_block.bit",
+    "stepSound": "block.glass.step",
     "luminance": {
       "fixedValue": 15.0
     },
@@ -121,6 +121,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": "ArcadeCabinetBlockDestroyedByPlayer",
+    "onBlockPlayedBy": "ArcadeCabinetBlockIsPlacedBy",
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

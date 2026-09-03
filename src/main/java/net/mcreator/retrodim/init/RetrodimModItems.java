@@ -253,6 +253,8 @@ public class RetrodimModItems {
 	public static final DeferredItem<Item> NEON_DARK_RED_BLOCK;
 	public static final DeferredItem<Item> NEON_DARK_WHITE_BLOCK;
 	public static final DeferredItem<Item> NEON_DARK_YELLOW_BLOCK;
+	public static final DeferredItem<Item> BITWISP_1;
+	public static final DeferredItem<Item> ARCADE_CABINET_TOP;
 	static {
 		RETRODIMENSION = REGISTRY.register("retrodimension", RetrodimensionItem::new);
 		RETRO_PURPLE_BLOCK = block(RetrodimModBlocks.RETRO_PURPLE_BLOCK);
@@ -491,6 +493,8 @@ public class RetrodimModItems {
 		NEON_DARK_RED_BLOCK = block(RetrodimModBlocks.NEON_DARK_RED_BLOCK, new Item.Properties().fireResistant());
 		NEON_DARK_WHITE_BLOCK = block(RetrodimModBlocks.NEON_DARK_WHITE_BLOCK, new Item.Properties().fireResistant());
 		NEON_DARK_YELLOW_BLOCK = block(RetrodimModBlocks.NEON_DARK_YELLOW_BLOCK, new Item.Properties().fireResistant());
+		BITWISP_1 = block(RetrodimModBlocks.BITWISP_1, new Item.Properties().fireResistant());
+		ARCADE_CABINET_TOP = block(RetrodimModBlocks.ARCADE_CABINET_TOP, new Item.Properties().fireResistant());
 	}
 
 	// Start of user code block custom items

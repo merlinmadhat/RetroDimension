@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "retrodim:item/bitwisp_1"
+  },
+  "render_type": "translucent"
+}

@@ -250,6 +250,8 @@ public class RetrodimModBlocks {
 	public static final DeferredBlock<Block> NEON_DARK_RED_BLOCK;
 	public static final DeferredBlock<Block> NEON_DARK_WHITE_BLOCK;
 	public static final DeferredBlock<Block> NEON_DARK_YELLOW_BLOCK;
+	public static final DeferredBlock<Block> BITWISP_1;
+	public static final DeferredBlock<Block> ARCADE_CABINET_TOP;
 	static {
 		RETRODIMENSION_PORTAL = REGISTRY.register("retrodimension_portal", RetrodimensionPortalBlock::new);
 		RETRO_PURPLE_BLOCK = REGISTRY.register("retro_purple_block", RetroPurpleBlockBlock::new);
@@ -488,6 +490,8 @@ public class RetrodimModBlocks {
 		NEON_DARK_RED_BLOCK = REGISTRY.register("neon_dark_red_block", NeonDarkRedBlockBlock::new);
 		NEON_DARK_WHITE_BLOCK = REGISTRY.register("neon_dark_white_block", NeonDarkWhiteBlockBlock::new);
 		NEON_DARK_YELLOW_BLOCK = REGISTRY.register("neon_dark_yellow_block", NeonDarkYellowBlockBlock::new);
+		BITWISP_1 = REGISTRY.register("bitwisp_1", Bitwisp1Block::new);
+		ARCADE_CABINET_TOP = REGISTRY.register("arcade_cabinet_top", ArcadeCabinetTopBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
