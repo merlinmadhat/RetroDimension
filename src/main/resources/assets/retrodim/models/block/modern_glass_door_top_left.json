@@ -1,9 +1,0 @@
-{
-  "parent": "block/door_top_left",
-  "textures": {
-    "particle": "retrodim:block/modernglassdoorbottom",
-    "bottom": "retrodim:block/modernglassdoorbottom",
-    "top": "retrodim:block/modernglassdoortop"
-  },
-  "render_type": "translucent"
-}
