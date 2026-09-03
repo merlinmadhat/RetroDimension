@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "retrodim:block/pastel_blue",
-    "particle": "retrodim:block/pastel_blue"
-  },
-  "render_type": "solid"
-}

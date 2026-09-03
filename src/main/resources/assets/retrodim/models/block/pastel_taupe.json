@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "retrodim:block/pastel_taupe",
-    "particle": "retrodim:block/pastel_taupe"
-  },
-  "render_type": "solid"
-}
