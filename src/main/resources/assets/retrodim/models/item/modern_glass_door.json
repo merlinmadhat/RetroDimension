@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "retrodim:block/modernglassdoorbottom"
-  },
-  "render_type": "translucent"
-}
