@@ -1,0 +1,12 @@
+{
+  "parent": "retrodim:custom/neonbanner",
+  "textures": {
+    "all": "retrodim:block/neonbubblegum",
+    "particle": "retrodim:block/neonbubblegum",
+    "0": "retrodim:block/neonblue",
+    "1": "retrodim:block/neoncyan",
+    "2": "retrodim:block/neonbubblegum",
+    "3": "retrodim:block/neonpink"
+  },
+  "render_type": "solid"
+}

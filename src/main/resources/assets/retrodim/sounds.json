@@ -50,5 +50,13 @@
         "stream": false
       }
     ]
+  },
+  "motorcycle": {
+    "sounds": [
+      {
+        "name": "retrodim:motorcycle",
+        "stream": false
+      }
+    ]
   }
 }

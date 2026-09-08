@@ -4992,6 +4992,141 @@
         ]
       },
       "path": "~/Decorations"
+    },
+    {
+      "name": "NeonBanner",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_banner",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/NeonBannerBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/neon_banner.json",
+          "src/main/resources/assets/retrodim/models/item/neon_banner.json",
+          "src/main/resources/assets/retrodim/models/block/neon_banner.json",
+          "src/main/resources/assets/retrodim/blockstates/neon_banner.json"
+        ]
+      },
+      "path": "~/Decorations"
+    },
+    {
+      "name": "ArcadeStool",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_stool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/ArcadeStoolBlock.java",
+          "src/main/resources/assets/retrodim/models/block/arcade_stool.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/arcade_stool.json",
+          "src/main/resources/assets/retrodim/blockstates/arcade_stool.json",
+          "src/main/resources/assets/retrodim/models/item/arcade_stool.json"
+        ]
+      },
+      "path": "~/Decorations"
+    },
+    {
+      "name": "WindowAmbience1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_ambience_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_1.json",
+          "src/main/java/net/mcreator/retrodim/block/WindowAmbience1Block.java",
+          "src/main/resources/assets/retrodim/blockstates/window_ambience_1.json",
+          "src/main/resources/assets/retrodim/models/block/window_ambience_1.json",
+          "src/main/resources/assets/retrodim/models/item/window_ambience_1.json"
+        ]
+      },
+      "path": "~/WindowAmbience Blocks"
+    },
+    {
+      "name": "WindowAmbience2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_ambience_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/window_ambience_2.json",
+          "src/main/resources/assets/retrodim/models/block/window_ambience_2.json",
+          "src/main/java/net/mcreator/retrodim/block/WindowAmbience2Block.java",
+          "src/main/resources/assets/retrodim/models/item/window_ambience_2.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_2.json"
+        ]
+      },
+      "path": "~/WindowAmbience Blocks"
+    },
+    {
+      "name": "WindowAmbience3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_ambience_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/window_ambience_3.json",
+          "src/main/resources/assets/retrodim/models/block/window_ambience_3.json",
+          "src/main/java/net/mcreator/retrodim/block/WindowAmbience3Block.java",
+          "src/main/resources/assets/retrodim/blockstates/window_ambience_3.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_3.json"
+        ]
+      },
+      "path": "~/WindowAmbience Blocks"
+    },
+    {
+      "name": "WindowAmbience4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_ambience_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_4.json",
+          "src/main/resources/assets/retrodim/blockstates/window_ambience_4.json",
+          "src/main/resources/assets/retrodim/models/block/window_ambience_4.json",
+          "src/main/java/net/mcreator/retrodim/block/WindowAmbience4Block.java",
+          "src/main/resources/assets/retrodim/models/item/window_ambience_4.json"
+        ]
+      },
+      "path": "~/WindowAmbience Blocks"
+    },
+    {
+      "name": "WindowAmbience5",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_ambience_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/block/window_ambience_5.json",
+          "src/main/resources/assets/retrodim/blockstates/window_ambience_5.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_5.json",
+          "src/main/java/net/mcreator/retrodim/block/WindowAmbience5Block.java",
+          "src/main/resources/assets/retrodim/models/item/window_ambience_5.json"
+        ]
+      },
+      "path": "~/WindowAmbience Blocks"
+    },
+    {
+      "name": "Motorcycle",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motorcycle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/motorcycle_spawn_egg.json",
+          "src/main/java/net/mcreator/retrodim/client/renderer/MotorcycleRenderer.java",
+          "src/main/java/net/mcreator/retrodim/entity/MotorcycleEntity.java",
+          "src/main/resources/data/retrodim/neoforge/biome_modifier/motorcycle_biome_modifier.json"
+        ]
+      },
+      "path": "~/Vehicles"
     }
   ],
   "variable_elements": [],
@@ -5040,6 +5175,14 @@
       "name": "swap",
       "files": [
         "swap"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "motorcycle",
+      "files": [
+        "motorcycle"
       ],
       "category": "neutral",
       "subtitle": ""
@@ -5565,7 +5708,20 @@
       "block.retrodim.neon_dark_white_block": "Neon Dark White Block",
       "block.retrodim.neon_dark_yellow_block": "Neon Dark Yellow Block",
       "block.retrodim.bitwisp_1": "Bitwisp 1",
-      "block.retrodim.arcade_cabinet_top": "Arcade Cabinet"
+      "block.retrodim.arcade_cabinet_top": "Arcade Cabinet",
+      "block.retrodim.neon_banner": "Neon Banner",
+      "block.retrodim.arcade_stool": "Arcade Stool",
+      "block.retrodim.window_ambience_1": "Window Ambience 1",
+      "block.retrodim.window_ambience_2": "Window Ambience 2",
+      "block.retrodim.window_ambience_3": "Window Ambience 3",
+      "block.retrodim.window_ambience_4": "Window Ambience 4",
+      "block.retrodim.window_ambience_5": "Window Ambience 5",
+      "item.retrodim.motorcycle_spawn_egg": "Motorcycle Spawn Egg",
+      "entity.retrodim.motorcycle": "Motorcycle",
+      "subtitles.motorcycleidle": "",
+      "subtitles.motorcyclerunning": "",
+      "subtitles.morotcycle": "",
+      "subtitles.motorcycle": ""
     }
   },
   "metadata": {
@@ -5574,6 +5730,8 @@
       "src/main/java/net/mcreator/retrodim/init/RetrodimModBlocks.java",
       "src/main/java/net/mcreator/retrodim/init/RetrodimModBlockEntities.java",
       "src/main/java/net/mcreator/retrodim/init/RetrodimModItems.java",
+      "src/main/java/net/mcreator/retrodim/init/RetrodimModEntities.java",
+      "src/main/java/net/mcreator/retrodim/init/RetrodimModEntityRenderers.java",
       "src/main/java/net/mcreator/retrodim/init/RetrodimModSounds.java",
       "src/main/java/net/mcreator/retrodim/init/RetrodimModTabs.java",
       "src/main/java/net/mcreator/retrodim/RetrodimMod.java",
@@ -5620,6 +5778,14 @@
       },
       {
         "name": "Pastel Blocks",
+        "children": []
+      },
+      {
+        "name": "WindowAmbience Blocks",
+        "children": []
+      },
+      {
+        "name": "Vehicles",
         "children": []
       }
     ]

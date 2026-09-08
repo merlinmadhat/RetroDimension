@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/black_concrete",
+    "up": "minecraft:block/black_concrete",
+    "north": "retrodim:block/windowambience14",
+    "east": "retrodim:block/windowambience13",
+    "south": "retrodim:block/windowambience16",
+    "west": "retrodim:block/windowambience15",
+    "particle": "minecraft:block/black_concrete"
+  },
+  "render_type": "solid"
+}

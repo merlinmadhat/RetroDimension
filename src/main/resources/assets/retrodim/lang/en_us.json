@@ -245,5 +245,18 @@
   "block.retrodim.neon_dark_white_block": "Neon Dark White Block",
   "block.retrodim.neon_dark_yellow_block": "Neon Dark Yellow Block",
   "block.retrodim.bitwisp_1": "Bitwisp 1",
-  "block.retrodim.arcade_cabinet_top": "Arcade Cabinet"
+  "block.retrodim.arcade_cabinet_top": "Arcade Cabinet",
+  "block.retrodim.neon_banner": "Neon Banner",
+  "block.retrodim.arcade_stool": "Arcade Stool",
+  "block.retrodim.window_ambience_1": "Window Ambience 1",
+  "block.retrodim.window_ambience_2": "Window Ambience 2",
+  "block.retrodim.window_ambience_3": "Window Ambience 3",
+  "block.retrodim.window_ambience_4": "Window Ambience 4",
+  "block.retrodim.window_ambience_5": "Window Ambience 5",
+  "item.retrodim.motorcycle_spawn_egg": "Motorcycle Spawn Egg",
+  "entity.retrodim.motorcycle": "Motorcycle",
+  "subtitles.motorcycleidle": "",
+  "subtitles.motorcyclerunning": "",
+  "subtitles.morotcycle": "",
+  "subtitles.motorcycle": ""
 }
