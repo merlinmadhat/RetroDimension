@@ -5122,8 +5122,7 @@
         "files": [
           "src/main/resources/assets/retrodim/models/item/motorcycle_spawn_egg.json",
           "src/main/java/net/mcreator/retrodim/client/renderer/MotorcycleRenderer.java",
-          "src/main/java/net/mcreator/retrodim/entity/MotorcycleEntity.java",
-          "src/main/resources/data/retrodim/neoforge/biome_modifier/motorcycle_biome_modifier.json"
+          "src/main/java/net/mcreator/retrodim/entity/MotorcycleEntity.java"
         ]
       },
       "path": "~/Vehicles"
