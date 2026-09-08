@@ -258,5 +258,10 @@
   "subtitles.motorcycleidle": "",
   "subtitles.motorcyclerunning": "",
   "subtitles.morotcycle": "",
-  "subtitles.motorcycle": ""
+  "subtitles.motorcycle": "",
+  "block.retrodim.window_ambience_blue_1": "Window Ambience Blue 1",
+  "block.retrodim.window_ambience_blue_2": "Window Ambience Blue 2",
+  "block.retrodim.window_ambience_blue_3": "Window Ambience Blue 3",
+  "block.retrodim.window_ambience_blue_4": "Window Ambience Blue 4",
+  "block.retrodim.window_ambience_blue_5": "Window Ambience Blue 5"
 }

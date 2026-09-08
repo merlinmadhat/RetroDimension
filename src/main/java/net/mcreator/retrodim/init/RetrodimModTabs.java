@@ -36,6 +36,11 @@ public class RetrodimModTabs {
 			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_3.get().asItem());
 			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_4.get().asItem());
 			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_5.get().asItem());
+			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_1.get().asItem());
+			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_2.get().asItem());
+			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_3.get().asItem());
+			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_4.get().asItem());
+			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_5.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
 			tabData.accept(RetrodimModBlocks.NEON_BLOCK_RED.get().asItem());
 			tabData.accept(RetrodimModBlocks.NEON_BLOCK_ORANGE.get().asItem());

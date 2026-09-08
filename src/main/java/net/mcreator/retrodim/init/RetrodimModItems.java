@@ -264,6 +264,11 @@ public class RetrodimModItems {
 	public static final DeferredItem<Item> WINDOW_AMBIENCE_4;
 	public static final DeferredItem<Item> WINDOW_AMBIENCE_5;
 	public static final DeferredItem<Item> MOTORCYCLE_SPAWN_EGG;
+	public static final DeferredItem<Item> WINDOW_AMBIENCE_BLUE_1;
+	public static final DeferredItem<Item> WINDOW_AMBIENCE_BLUE_2;
+	public static final DeferredItem<Item> WINDOW_AMBIENCE_BLUE_3;
+	public static final DeferredItem<Item> WINDOW_AMBIENCE_BLUE_4;
+	public static final DeferredItem<Item> WINDOW_AMBIENCE_BLUE_5;
 	static {
 		RETRODIMENSION = REGISTRY.register("retrodimension", RetrodimensionItem::new);
 		RETRO_PURPLE_BLOCK = block(RetrodimModBlocks.RETRO_PURPLE_BLOCK);
@@ -512,6 +517,11 @@ public class RetrodimModItems {
 		WINDOW_AMBIENCE_4 = block(RetrodimModBlocks.WINDOW_AMBIENCE_4);
 		WINDOW_AMBIENCE_5 = block(RetrodimModBlocks.WINDOW_AMBIENCE_5);
 		MOTORCYCLE_SPAWN_EGG = REGISTRY.register("motorcycle_spawn_egg", () -> new DeferredSpawnEggItem(RetrodimModEntities.MOTORCYCLE, -1, -1, new Item.Properties()));
+		WINDOW_AMBIENCE_BLUE_1 = block(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_1);
+		WINDOW_AMBIENCE_BLUE_2 = block(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_2);
+		WINDOW_AMBIENCE_BLUE_3 = block(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_3);
+		WINDOW_AMBIENCE_BLUE_4 = block(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_4);
+		WINDOW_AMBIENCE_BLUE_5 = block(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_5);
 	}
 
 	// Start of user code block custom items

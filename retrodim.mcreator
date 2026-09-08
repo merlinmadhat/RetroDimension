@@ -5127,6 +5127,91 @@
         ]
       },
       "path": "~/Vehicles"
+    },
+    {
+      "name": "WindowAmbienceBlue1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_ambience_blue_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/models/item/window_ambience_blue_1.json",
+          "src/main/resources/assets/retrodim/blockstates/window_ambience_blue_1.json",
+          "src/main/java/net/mcreator/retrodim/block/WindowAmbienceBlue1Block.java",
+          "src/main/resources/assets/retrodim/models/block/window_ambience_blue_1.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_blue_1.json"
+        ]
+      },
+      "path": "~/WindowAmbience Blocks"
+    },
+    {
+      "name": "WindowAmbienceBlue2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_ambience_blue_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/window_ambience_blue_2.json",
+          "src/main/java/net/mcreator/retrodim/block/WindowAmbienceBlue2Block.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_blue_2.json",
+          "src/main/resources/assets/retrodim/models/block/window_ambience_blue_2.json",
+          "src/main/resources/assets/retrodim/models/item/window_ambience_blue_2.json"
+        ]
+      },
+      "path": "~/WindowAmbience Blocks"
+    },
+    {
+      "name": "WindowAmbienceBlue3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_ambience_blue_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/WindowAmbienceBlue3Block.java",
+          "src/main/resources/assets/retrodim/models/block/window_ambience_blue_3.json",
+          "src/main/resources/assets/retrodim/blockstates/window_ambience_blue_3.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_blue_3.json",
+          "src/main/resources/assets/retrodim/models/item/window_ambience_blue_3.json"
+        ]
+      },
+      "path": "~/WindowAmbience Blocks"
+    },
+    {
+      "name": "WindowAmbienceBlue4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_ambience_blue_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/block/WindowAmbienceBlue4Block.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_blue_4.json",
+          "src/main/resources/assets/retrodim/models/item/window_ambience_blue_4.json",
+          "src/main/resources/assets/retrodim/models/block/window_ambience_blue_4.json",
+          "src/main/resources/assets/retrodim/blockstates/window_ambience_blue_4.json"
+        ]
+      },
+      "path": "~/WindowAmbience Blocks"
+    },
+    {
+      "name": "WindowAmbienceBlue5",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_ambience_blue_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/retrodim/blockstates/window_ambience_blue_5.json",
+          "src/main/resources/assets/retrodim/models/block/window_ambience_blue_5.json",
+          "src/main/java/net/mcreator/retrodim/block/WindowAmbienceBlue5Block.java",
+          "src/main/resources/assets/retrodim/models/item/window_ambience_blue_5.json",
+          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_blue_5.json"
+        ]
+      },
+      "path": "~/WindowAmbience Blocks"
     }
   ],
   "variable_elements": [],
@@ -5721,7 +5806,12 @@
       "subtitles.motorcycleidle": "",
       "subtitles.motorcyclerunning": "",
       "subtitles.morotcycle": "",
-      "subtitles.motorcycle": ""
+      "subtitles.motorcycle": "",
+      "block.retrodim.window_ambience_blue_1": "Window Ambience Blue 1",
+      "block.retrodim.window_ambience_blue_2": "Window Ambience Blue 2",
+      "block.retrodim.window_ambience_blue_3": "Window Ambience Blue 3",
+      "block.retrodim.window_ambience_blue_4": "Window Ambience Blue 4",
+      "block.retrodim.window_ambience_blue_5": "Window Ambience Blue 5"
     }
   },
   "metadata": {

@@ -259,6 +259,11 @@ public class RetrodimModBlocks {
 	public static final DeferredBlock<Block> WINDOW_AMBIENCE_3;
 	public static final DeferredBlock<Block> WINDOW_AMBIENCE_4;
 	public static final DeferredBlock<Block> WINDOW_AMBIENCE_5;
+	public static final DeferredBlock<Block> WINDOW_AMBIENCE_BLUE_1;
+	public static final DeferredBlock<Block> WINDOW_AMBIENCE_BLUE_2;
+	public static final DeferredBlock<Block> WINDOW_AMBIENCE_BLUE_3;
+	public static final DeferredBlock<Block> WINDOW_AMBIENCE_BLUE_4;
+	public static final DeferredBlock<Block> WINDOW_AMBIENCE_BLUE_5;
 	static {
 		RETRODIMENSION_PORTAL = REGISTRY.register("retrodimension_portal", RetrodimensionPortalBlock::new);
 		RETRO_PURPLE_BLOCK = REGISTRY.register("retro_purple_block", RetroPurpleBlockBlock::new);
@@ -506,6 +511,11 @@ public class RetrodimModBlocks {
 		WINDOW_AMBIENCE_3 = REGISTRY.register("window_ambience_3", WindowAmbience3Block::new);
 		WINDOW_AMBIENCE_4 = REGISTRY.register("window_ambience_4", WindowAmbience4Block::new);
 		WINDOW_AMBIENCE_5 = REGISTRY.register("window_ambience_5", WindowAmbience5Block::new);
+		WINDOW_AMBIENCE_BLUE_1 = REGISTRY.register("window_ambience_blue_1", WindowAmbienceBlue1Block::new);
+		WINDOW_AMBIENCE_BLUE_2 = REGISTRY.register("window_ambience_blue_2", WindowAmbienceBlue2Block::new);
+		WINDOW_AMBIENCE_BLUE_3 = REGISTRY.register("window_ambience_blue_3", WindowAmbienceBlue3Block::new);
+		WINDOW_AMBIENCE_BLUE_4 = REGISTRY.register("window_ambience_blue_4", WindowAmbienceBlue4Block::new);
+		WINDOW_AMBIENCE_BLUE_5 = REGISTRY.register("window_ambience_blue_5", WindowAmbienceBlue5Block::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
