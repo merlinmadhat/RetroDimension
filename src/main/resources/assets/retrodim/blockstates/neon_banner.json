@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "retrodim:block/neon_banner"
+    },
+    "facing=east": {
+      "model": "retrodim:block/neon_banner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "retrodim:block/neon_banner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "retrodim:block/neon_banner",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "retrodim:block/neon_banner",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "retrodim:block/neon_banner",
+      "x": 90
+    }
+  }
+}

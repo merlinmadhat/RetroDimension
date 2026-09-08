@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "retrodim:block/window_ambience_5"
+    },
+    "facing=east": {
+      "model": "retrodim:block/window_ambience_5",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "retrodim:block/window_ambience_5",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "retrodim:block/window_ambience_5",
+      "y": 270
+    }
+  }
+}

@@ -6,6 +6,7 @@ package net.mcreator.retrodim.init;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -255,6 +256,19 @@ public class RetrodimModItems {
 	public static final DeferredItem<Item> NEON_DARK_YELLOW_BLOCK;
 	public static final DeferredItem<Item> BITWISP_1;
 	public static final DeferredItem<Item> ARCADE_CABINET_TOP;
+	public static final DeferredItem<Item> NEON_BANNER;
+	public static final DeferredItem<Item> ARCADE_STOOL;
+	public static final DeferredItem<Item> WINDOW_AMBIENCE_1;
+	public static final DeferredItem<Item> WINDOW_AMBIENCE_2;
+	public static final DeferredItem<Item> WINDOW_AMBIENCE_3;
+	public static final DeferredItem<Item> WINDOW_AMBIENCE_4;
+	public static final DeferredItem<Item> WINDOW_AMBIENCE_5;
+	public static final DeferredItem<Item> MOTORCYCLE_SPAWN_EGG;
+	public static final DeferredItem<Item> WINDOW_AMBIENCE_BLUE_1;
+	public static final DeferredItem<Item> WINDOW_AMBIENCE_BLUE_2;
+	public static final DeferredItem<Item> WINDOW_AMBIENCE_BLUE_3;
+	public static final DeferredItem<Item> WINDOW_AMBIENCE_BLUE_4;
+	public static final DeferredItem<Item> WINDOW_AMBIENCE_BLUE_5;
 	static {
 		RETRODIMENSION = REGISTRY.register("retrodimension", RetrodimensionItem::new);
 		RETRO_PURPLE_BLOCK = block(RetrodimModBlocks.RETRO_PURPLE_BLOCK);
@@ -495,6 +509,19 @@ public class RetrodimModItems {
 		NEON_DARK_YELLOW_BLOCK = block(RetrodimModBlocks.NEON_DARK_YELLOW_BLOCK, new Item.Properties().fireResistant());
 		BITWISP_1 = block(RetrodimModBlocks.BITWISP_1, new Item.Properties().fireResistant());
 		ARCADE_CABINET_TOP = block(RetrodimModBlocks.ARCADE_CABINET_TOP, new Item.Properties().fireResistant());
+		NEON_BANNER = block(RetrodimModBlocks.NEON_BANNER, new Item.Properties().fireResistant());
+		ARCADE_STOOL = block(RetrodimModBlocks.ARCADE_STOOL);
+		WINDOW_AMBIENCE_1 = block(RetrodimModBlocks.WINDOW_AMBIENCE_1);
+		WINDOW_AMBIENCE_2 = block(RetrodimModBlocks.WINDOW_AMBIENCE_2);
+		WINDOW_AMBIENCE_3 = block(RetrodimModBlocks.WINDOW_AMBIENCE_3);
+		WINDOW_AMBIENCE_4 = block(RetrodimModBlocks.WINDOW_AMBIENCE_4);
+		WINDOW_AMBIENCE_5 = block(RetrodimModBlocks.WINDOW_AMBIENCE_5);
+		MOTORCYCLE_SPAWN_EGG = REGISTRY.register("motorcycle_spawn_egg", () -> new DeferredSpawnEggItem(RetrodimModEntities.MOTORCYCLE, -1, -1, new Item.Properties()));
+		WINDOW_AMBIENCE_BLUE_1 = block(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_1);
+		WINDOW_AMBIENCE_BLUE_2 = block(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_2);
+		WINDOW_AMBIENCE_BLUE_3 = block(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_3);
+		WINDOW_AMBIENCE_BLUE_4 = block(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_4);
+		WINDOW_AMBIENCE_BLUE_5 = block(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_5);
 	}
 
 	// Start of user code block custom items

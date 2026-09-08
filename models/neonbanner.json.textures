@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "neonblue",
+        "1": "neoncyan",
+        "2": "neonbubblegum",
+        "3": "neonpink"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "retrodim:custom/arcadestool",
+  "textures": {
+    "all": "minecraft:block/red_concrete_powder",
+    "particle": "minecraft:block/red_concrete_powder",
+    "0": "retrodim:block/darkgray",
+    "1": "minecraft:block/red_concrete_powder"
+  },
+  "render_type": "solid"
+}
