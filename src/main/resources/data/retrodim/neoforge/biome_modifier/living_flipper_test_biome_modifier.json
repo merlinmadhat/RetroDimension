@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "retrodim:retro_chrome",
+  "spawners": {
+    "type": "retrodim:living_flipper_test",
+    "weight": 20,
+    "minCount": 2,
+    "maxCount": 2
+  }
+}

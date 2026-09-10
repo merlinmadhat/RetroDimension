@@ -211,5 +211,7 @@
   "block.retrodim.retro_pastel_block": "Retro Pastel Block",
   "subtitles.mplink": "plink",
   "subtitles.thwump": "thwump",
-  "subtitles.err": "err-0r"
+  "subtitles.err": "err-0r",
+  "item.retrodim.living_flipper_test_spawn_egg": "Living Flipper Test Spawn Egg",
+  "entity.retrodim.living_flipper_test": "Living Flipper Test"
 }

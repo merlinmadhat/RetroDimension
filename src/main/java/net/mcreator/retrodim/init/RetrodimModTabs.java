@@ -229,6 +229,8 @@ public class RetrodimModTabs {
 			tabData.accept(RetrodimModBlocks.NEON_DARK_CYAN_BLOCK.get().asItem());
 			tabData.accept(RetrodimModBlocks.BIT_WISP.get().asItem());
 			tabData.accept(RetrodimModBlocks.RETRO_PASTEL_BLOCK.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(RetrodimModItems.LIVING_FLIPPER_TEST_SPAWN_EGG.get());
 		}
 	}
 }

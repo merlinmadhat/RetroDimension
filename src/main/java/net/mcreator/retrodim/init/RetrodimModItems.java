@@ -6,6 +6,7 @@ package net.mcreator.retrodim.init;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -222,6 +223,7 @@ public class RetrodimModItems {
 	public static final DeferredItem<Item> RETRO_YELLOW_BLOCK;
 	public static final DeferredItem<Item> RETRO_WHITE_BLOCK;
 	public static final DeferredItem<Item> RETRO_PASTEL_BLOCK;
+	public static final DeferredItem<Item> LIVING_FLIPPER_TEST_SPAWN_EGG;
 	static {
 		RETRODIMENSION = REGISTRY.register("retrodimension", RetrodimensionItem::new);
 		RETRO_PURPLE_BLOCK = block(RetrodimModBlocks.RETRO_PURPLE_BLOCK);
@@ -429,6 +431,7 @@ public class RetrodimModItems {
 		RETRO_YELLOW_BLOCK = block(RetrodimModBlocks.RETRO_YELLOW_BLOCK);
 		RETRO_WHITE_BLOCK = block(RetrodimModBlocks.RETRO_WHITE_BLOCK);
 		RETRO_PASTEL_BLOCK = block(RetrodimModBlocks.RETRO_PASTEL_BLOCK);
+		LIVING_FLIPPER_TEST_SPAWN_EGG = REGISTRY.register("living_flipper_test_spawn_egg", () -> new DeferredSpawnEggItem(RetrodimModEntities.LIVING_FLIPPER_TEST, -1, -1, new Item.Properties()));
 	}
 
 	// Start of user code block custom items
