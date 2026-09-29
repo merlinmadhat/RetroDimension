@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:green_stained_glass"
+    },
+    {
+      "item": "minecraft:green_stained_glass"
+    },
+    {
+      "item": "minecraft:green_stained_glass"
+    },
+    {
+      "item": "minecraft:green_stained_glass"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    }
+  ],
+  "result": {
+    "id": "retrodim:neon_dark_green_block",
+    "count": 4
+  }
+}

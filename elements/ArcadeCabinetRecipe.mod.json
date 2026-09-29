@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "Blocks.OAK_WOOD",
+      "Blocks.REDSTONE_LAMP",
+      "Blocks.JUKEBOX",
+      "Blocks.WOODEN_BUTTON",
+      "Blocks.UNPOWERED_COMPARATOR",
+      "Items.REPEATER",
+      "Items.DYE#13",
+      "Items.DYE#5",
+      "Blocks.GLASS_PANE"
+    ],
+    "recipeReturnStack": "CUSTOM:ArcadeCabinet",
+    "name": "arcade_cabinet_recipe",
+    "namespace": "mod"
+  }
+}

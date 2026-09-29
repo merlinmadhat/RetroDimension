@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "CUSTOM:NeonBlockBubblegum",
+      "",
+      "CUSTOM:NeonBlockCyan",
+      "CUSTOM:NeonBlockBubblegum",
+      "Blocks.POLISHED_DEEPSLATE",
+      "CUSTOM:NeonBlockCyan",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:NeonCyberSign",
+    "name": "neon_cyber_sign_recipe",
+    "namespace": "mod"
+  }
+}

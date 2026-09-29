@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "Blocks.STAINED_GLASS#11",
+      "Blocks.STAINED_GLASS#11",
+      "",
+      "Blocks.STAINED_GLASS#11",
+      "Blocks.STAINED_GLASS#11",
+      "Items.GLOW_BERRIES",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:NeonDarkBlueBlock",
+    "name": "neon_dark_blue_recipe",
+    "namespace": "mod"
+  }
+}

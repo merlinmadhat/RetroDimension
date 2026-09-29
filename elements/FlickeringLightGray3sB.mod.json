@@ -40,7 +40,10 @@
     "customProperties": [],
     "name": "Flickering Light Gray 3sB",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "While holding, right-click air for",
+        "next animation, sneak for previous."
+      ]
     },
     "hardness": 1.0,
     "resistance": 10.0,

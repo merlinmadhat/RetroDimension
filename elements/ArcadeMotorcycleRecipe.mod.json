@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "Blocks.IRON_TRAPDOOR",
+      "Items.IRON_HORSE_ARMOR",
+      "Blocks.IRON_BARS",
+      "Items.DYE#2",
+      "Items.FURNACE_MINECART",
+      "Blocks.REDSTONE_LAMP",
+      "Blocks.DRIED_KELP_BLOCK",
+      "Blocks.CHAIN",
+      "Blocks.DRIED_KELP_BLOCK"
+    ],
+    "recipeReturnStack": "CUSTOM:Motorcycle.spawn_egg",
+    "name": "arcade_motorcycle_recipe",
+    "namespace": "mod"
+  }
+}

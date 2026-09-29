@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "retrodim:neon_block_bubblegum"
+    },
+    {
+      "item": "retrodim:neon_block_cyan"
+    },
+    {
+      "item": "retrodim:neon_block_bubblegum"
+    },
+    {
+      "item": "minecraft:polished_deepslate"
+    },
+    {
+      "item": "retrodim:neon_block_cyan"
+    }
+  ],
+  "result": {
+    "id": "retrodim:neon_cyber_sign",
+    "count": 1
+  }
+}

@@ -31,16 +31,6 @@ public class RetrodimModTabs {
 			tabData.accept(RetrodimModBlocks.RETRO_YELLOW_BLOCK.get().asItem());
 			tabData.accept(RetrodimModBlocks.RETRO_WHITE_BLOCK.get().asItem());
 			tabData.accept(RetrodimModBlocks.ARCADE_STOOL.get().asItem());
-			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_1.get().asItem());
-			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_2.get().asItem());
-			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_3.get().asItem());
-			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_4.get().asItem());
-			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_5.get().asItem());
-			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_1.get().asItem());
-			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_2.get().asItem());
-			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_3.get().asItem());
-			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_4.get().asItem());
-			tabData.accept(RetrodimModBlocks.WINDOW_AMBIENCE_BLUE_5.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
 			tabData.accept(RetrodimModBlocks.NEON_BLOCK_RED.get().asItem());
 			tabData.accept(RetrodimModBlocks.NEON_BLOCK_ORANGE.get().asItem());
@@ -238,7 +228,6 @@ public class RetrodimModTabs {
 			tabData.accept(RetrodimModBlocks.NEON_EDGE_MAGENTA_BLOCK.get().asItem());
 			tabData.accept(RetrodimModBlocks.NEON_DARK_MAGENTA_BLOCK.get().asItem());
 			tabData.accept(RetrodimModBlocks.NEON_DARK_CYAN_BLOCK.get().asItem());
-			tabData.accept(RetrodimModBlocks.BIT_WISP.get().asItem());
 			tabData.accept(RetrodimModBlocks.RETRO_PASTEL_BLOCK.get().asItem());
 			tabData.accept(RetrodimModBlocks.NEON_EDGE_BLUE_BLOCK.get().asItem());
 			tabData.accept(RetrodimModBlocks.NEON_EDGE_BROWN_BLOCK.get().asItem());
@@ -271,8 +260,9 @@ public class RetrodimModTabs {
 			tabData.accept(RetrodimModBlocks.NEON_DARK_RED_BLOCK.get().asItem());
 			tabData.accept(RetrodimModBlocks.NEON_DARK_WHITE_BLOCK.get().asItem());
 			tabData.accept(RetrodimModBlocks.NEON_DARK_YELLOW_BLOCK.get().asItem());
-			tabData.accept(RetrodimModBlocks.BITWISP_1.get().asItem());
 			tabData.accept(RetrodimModBlocks.NEON_BANNER.get().asItem());
+			tabData.accept(RetrodimModBlocks.BIT_SPRITE.get().asItem());
+			tabData.accept(RetrodimModBlocks.BIT_HARMONY.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(RetrodimModItems.MOTORCYCLE_SPAWN_EGG.get());
 		}

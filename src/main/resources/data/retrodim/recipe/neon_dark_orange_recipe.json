@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_stained_glass"
+    },
+    {
+      "item": "minecraft:orange_stained_glass"
+    },
+    {
+      "item": "minecraft:orange_stained_glass"
+    },
+    {
+      "item": "minecraft:orange_stained_glass"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    }
+  ],
+  "result": {
+    "id": "retrodim:neon_dark_orange_block",
+    "count": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_sign"
+    },
+    {
+      "item": "retrodim:neon_block_red"
+    },
+    {
+      "item": "retrodim:neon_block_blue"
+    }
+  ],
+  "result": {
+    "id": "retrodim:open_sign_red",
+    "count": 1
+  }
+}
