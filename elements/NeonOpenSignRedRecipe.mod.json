@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "Blocks.STANDING_SIGN",
+      "CUSTOM:NeonBlockRed",
+      "CUSTOM:NeonBlockBlue",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:OpenSignRed",
+    "name": "neon_open_sign_red_recipe",
+    "namespace": "mod"
+  }
+}

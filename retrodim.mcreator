@@ -3797,23 +3797,6 @@
       "path": "~/NeonDark Blocks"
     },
     {
-      "name": "BitWisp",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bit_wisp",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/retrodim/blockstates/bit_wisp.json",
-          "src/main/resources/data/retrodim/loot_table/blocks/bit_wisp.json",
-          "src/main/java/net/mcreator/retrodim/block/BitWispBlock.java",
-          "src/main/resources/assets/retrodim/models/item/bit_wisp.json",
-          "src/main/resources/assets/retrodim/models/block/bit_wisp.json"
-        ]
-      },
-      "path": "~/Decorations"
-    },
-    {
       "name": "RightClickTwist",
       "type": "procedure",
       "compiles": true,
@@ -4857,25 +4840,6 @@
       "path": "~/NeonDark Blocks"
     },
     {
-      "name": "Bitwisp1",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bitwisp_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/retrodim/loot_table/blocks/bitwisp_1.json",
-          "src/main/resources/assets/retrodim/models/block/bitwisp_1.json",
-          "src/main/java/net/mcreator/retrodim/block/Bitwisp1Block.java",
-          "src/main/java/net/mcreator/retrodim/block/entity/Bitwisp1BlockEntity.java",
-          "src/main/resources/assets/retrodim/models/item/bitwisp_1.json",
-          "src/main/java/net/mcreator/retrodim/client/renderer/block/Bitwisp1Renderer.java",
-          "src/main/resources/assets/retrodim/blockstates/bitwisp_1.json"
-        ]
-      },
-      "path": "~/Decorations"
-    },
-    {
       "name": "ArcadeCabinetTop",
       "type": "block",
       "compiles": true,
@@ -5028,91 +4992,6 @@
       "path": "~/Decorations"
     },
     {
-      "name": "WindowAmbience1",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "window_ambience_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_1.json",
-          "src/main/java/net/mcreator/retrodim/block/WindowAmbience1Block.java",
-          "src/main/resources/assets/retrodim/blockstates/window_ambience_1.json",
-          "src/main/resources/assets/retrodim/models/block/window_ambience_1.json",
-          "src/main/resources/assets/retrodim/models/item/window_ambience_1.json"
-        ]
-      },
-      "path": "~/WindowAmbience Blocks"
-    },
-    {
-      "name": "WindowAmbience2",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "window_ambience_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/retrodim/blockstates/window_ambience_2.json",
-          "src/main/resources/assets/retrodim/models/block/window_ambience_2.json",
-          "src/main/java/net/mcreator/retrodim/block/WindowAmbience2Block.java",
-          "src/main/resources/assets/retrodim/models/item/window_ambience_2.json",
-          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_2.json"
-        ]
-      },
-      "path": "~/WindowAmbience Blocks"
-    },
-    {
-      "name": "WindowAmbience3",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "window_ambience_3",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/retrodim/models/item/window_ambience_3.json",
-          "src/main/resources/assets/retrodim/models/block/window_ambience_3.json",
-          "src/main/java/net/mcreator/retrodim/block/WindowAmbience3Block.java",
-          "src/main/resources/assets/retrodim/blockstates/window_ambience_3.json",
-          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_3.json"
-        ]
-      },
-      "path": "~/WindowAmbience Blocks"
-    },
-    {
-      "name": "WindowAmbience4",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "window_ambience_4",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_4.json",
-          "src/main/resources/assets/retrodim/blockstates/window_ambience_4.json",
-          "src/main/resources/assets/retrodim/models/block/window_ambience_4.json",
-          "src/main/java/net/mcreator/retrodim/block/WindowAmbience4Block.java",
-          "src/main/resources/assets/retrodim/models/item/window_ambience_4.json"
-        ]
-      },
-      "path": "~/WindowAmbience Blocks"
-    },
-    {
-      "name": "WindowAmbience5",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "window_ambience_5",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/retrodim/models/block/window_ambience_5.json",
-          "src/main/resources/assets/retrodim/blockstates/window_ambience_5.json",
-          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_5.json",
-          "src/main/java/net/mcreator/retrodim/block/WindowAmbience5Block.java",
-          "src/main/resources/assets/retrodim/models/item/window_ambience_5.json"
-        ]
-      },
-      "path": "~/WindowAmbience Blocks"
-    },
-    {
       "name": "Motorcycle",
       "type": "livingentity",
       "compiles": true,
@@ -5128,89 +5007,612 @@
       "path": "~/Vehicles"
     },
     {
-      "name": "WindowAmbienceBlue1",
-      "type": "block",
+      "name": "NeonEdgeBlackRecipe",
+      "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "window_ambience_blue_1",
+      "registry_name": "neon_edge_black_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/retrodim/models/item/window_ambience_blue_1.json",
-          "src/main/resources/assets/retrodim/blockstates/window_ambience_blue_1.json",
-          "src/main/java/net/mcreator/retrodim/block/WindowAmbienceBlue1Block.java",
-          "src/main/resources/assets/retrodim/models/block/window_ambience_blue_1.json",
-          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_blue_1.json"
+          "src/main/resources/data/retrodim/recipe/neon_edge_black_recipe.json"
         ]
       },
-      "path": "~/WindowAmbience Blocks"
+      "path": "~/Recipes"
     },
     {
-      "name": "WindowAmbienceBlue2",
-      "type": "block",
+      "name": "NeonEdgeBlueRecipe",
+      "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "window_ambience_blue_2",
+      "registry_name": "neon_edge_blue_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/retrodim/blockstates/window_ambience_blue_2.json",
-          "src/main/java/net/mcreator/retrodim/block/WindowAmbienceBlue2Block.java",
-          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_blue_2.json",
-          "src/main/resources/assets/retrodim/models/block/window_ambience_blue_2.json",
-          "src/main/resources/assets/retrodim/models/item/window_ambience_blue_2.json"
+          "src/main/resources/data/retrodim/recipe/neon_edge_blue_recipe.json"
         ]
       },
-      "path": "~/WindowAmbience Blocks"
+      "path": "~/Recipes"
     },
     {
-      "name": "WindowAmbienceBlue3",
-      "type": "block",
+      "name": "NeonEdgeBrownRecipe",
+      "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "window_ambience_blue_3",
+      "registry_name": "neon_edge_brown_recipe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/retrodim/block/WindowAmbienceBlue3Block.java",
-          "src/main/resources/assets/retrodim/models/block/window_ambience_blue_3.json",
-          "src/main/resources/assets/retrodim/blockstates/window_ambience_blue_3.json",
-          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_blue_3.json",
-          "src/main/resources/assets/retrodim/models/item/window_ambience_blue_3.json"
+          "src/main/resources/data/retrodim/recipe/neon_edge_brown_recipe.json"
         ]
       },
-      "path": "~/WindowAmbience Blocks"
+      "path": "~/Recipes"
     },
     {
-      "name": "WindowAmbienceBlue4",
-      "type": "block",
+      "name": "NeonEdgeBubblegumRecipe",
+      "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "window_ambience_blue_4",
+      "registry_name": "neon_edge_bubblegum_recipe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/retrodim/block/WindowAmbienceBlue4Block.java",
-          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_blue_4.json",
-          "src/main/resources/assets/retrodim/models/item/window_ambience_blue_4.json",
-          "src/main/resources/assets/retrodim/models/block/window_ambience_blue_4.json",
-          "src/main/resources/assets/retrodim/blockstates/window_ambience_blue_4.json"
+          "src/main/resources/data/retrodim/recipe/neon_edge_bubblegum_recipe.json"
         ]
       },
-      "path": "~/WindowAmbience Blocks"
+      "path": "~/Recipes"
     },
     {
-      "name": "WindowAmbienceBlue5",
+      "name": "NeonEdgeCyanRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_cyan_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_edge_cyan_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonEdgeGrayRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_gray_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_edge_gray_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonEdgeGreenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_green_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_edge_green_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonEdgeLightBlueRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_light_blue_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_edge_light_blue_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonEdgeLightGrayRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_light_gray_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_edge_light_gray_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonEdgeLightYellowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_light_yellow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_edge_light_yellow_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonEdgeLimeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_lime_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_edge_lime_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonEdgeMagentaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_magenta_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_edge_magenta_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonEdgeOrangeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_orange_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_edge_orange_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonEdgePinkRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_pink_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_edge_pink_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonEdgePurpleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_purple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_edge_purple_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonEdgeRedRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_red_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_edge_red_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonEdgeWhiteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_white_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_edge_white_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonEdgeYellowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_edge_yellow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_edge_yellow_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkBlueRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_blue_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_blue_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkBrownRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_brown_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_brown_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkBubblegumRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_bubblegum_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_bubblegum_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkCyanRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_cyan_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_cyan_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkGrayRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_gray_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_gray_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkGreenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_green_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_green_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkLightBlueRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_light_blue_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_light_blue_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkLightGrayRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_light_gray_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_light_gray_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkLimeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_lime_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_lime_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkMagentaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_magenta_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_magenta_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkOrangeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_orange_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_orange_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkPinkRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_pink_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_pink_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkPurpleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_purple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_purple_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkRedRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_red_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_red_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkWhiteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_white_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_white_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkYellowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_yellow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_yellow_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonDarkLightYellowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_dark_light_yellow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_dark_light_yellow_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonBannerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_banner_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_banner_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ArcadeCabinetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_cabinet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/arcade_cabinet_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ArcadeStoolRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_stool_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/arcade_stool_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BitSprite",
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "window_ambience_blue_5",
+      "registry_name": "bit_sprite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/retrodim/blockstates/window_ambience_blue_5.json",
-          "src/main/resources/assets/retrodim/models/block/window_ambience_blue_5.json",
-          "src/main/java/net/mcreator/retrodim/block/WindowAmbienceBlue5Block.java",
-          "src/main/resources/assets/retrodim/models/item/window_ambience_blue_5.json",
-          "src/main/resources/data/retrodim/loot_table/blocks/window_ambience_blue_5.json"
+          "src/main/resources/data/retrodim/loot_table/blocks/bit_sprite.json",
+          "src/main/resources/assets/retrodim/models/block/bit_sprite.json",
+          "src/main/java/net/mcreator/retrodim/block/BitSpriteBlock.java",
+          "src/main/resources/assets/retrodim/models/item/bit_sprite.json",
+          "src/main/resources/assets/retrodim/blockstates/bit_sprite.json"
         ]
       },
-      "path": "~/WindowAmbience Blocks"
+      "path": "~/Decorations"
+    },
+    {
+      "name": "BitHarmony",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bit_harmony",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/retrodim/client/renderer/block/BitHarmonyRenderer.java",
+          "src/main/java/net/mcreator/retrodim/block/BitHarmonyBlock.java",
+          "src/main/resources/data/retrodim/loot_table/blocks/bit_harmony.json",
+          "src/main/resources/assets/retrodim/models/item/bit_harmony.json",
+          "src/main/resources/assets/retrodim/blockstates/bit_harmony.json",
+          "src/main/resources/assets/retrodim/models/block/bit_harmony.json",
+          "src/main/java/net/mcreator/retrodim/block/entity/BitHarmonyBlockEntity.java"
+        ]
+      },
+      "path": "~/Decorations"
+    },
+    {
+      "name": "BitHarmonyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bit_harmony_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/bit_harmony_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BitSpriteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bit_sprite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/bit_sprite_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonCyberSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_cyber_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_cyber_sign_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonOpenSignPinkRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_open_sign_pink_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_open_sign_pink_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "NeonOpenSignRedRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_open_sign_red_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/neon_open_sign_red_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ArcadeMotorcycleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcade_motorcycle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/retrodim/recipe/arcade_motorcycle_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -5749,7 +6151,6 @@
       "block.retrodim.neon_edge_magenta_block": "Neon Edge Magenta Block",
       "block.retrodim.neon_dark_magenta_block": "Neon Dark Magenta Block",
       "block.retrodim.neon_dark_cyan_block": "Neon Dark Cyan Block",
-      "block.retrodim.bit_wisp": "Bit Wisp",
       "subtitles.plink": "Neon plinks",
       "block.retrodim.retro_green_block": "Retro Green Block",
       "block.retrodim.retro_red_block": "Retro Red Block",
@@ -5791,26 +6192,428 @@
       "block.retrodim.neon_dark_red_block": "Neon Dark Red Block",
       "block.retrodim.neon_dark_white_block": "Neon Dark White Block",
       "block.retrodim.neon_dark_yellow_block": "Neon Dark Yellow Block",
-      "block.retrodim.bitwisp_1": "Bitwisp 1",
       "block.retrodim.arcade_cabinet_top": "Arcade Cabinet",
       "block.retrodim.neon_banner": "Neon Banner",
       "block.retrodim.arcade_stool": "Arcade Stool",
-      "block.retrodim.window_ambience_1": "Window Ambience 1",
-      "block.retrodim.window_ambience_2": "Window Ambience 2",
-      "block.retrodim.window_ambience_3": "Window Ambience 3",
-      "block.retrodim.window_ambience_4": "Window Ambience 4",
-      "block.retrodim.window_ambience_5": "Window Ambience 5",
       "item.retrodim.motorcycle_spawn_egg": "Motorcycle Spawn Egg",
       "entity.retrodim.motorcycle": "Motorcycle",
       "subtitles.motorcycleidle": "",
       "subtitles.motorcyclerunning": "",
       "subtitles.morotcycle": "",
       "subtitles.motorcycle": "",
-      "block.retrodim.window_ambience_blue_1": "Window Ambience Blue 1",
-      "block.retrodim.window_ambience_blue_2": "Window Ambience Blue 2",
-      "block.retrodim.window_ambience_blue_3": "Window Ambience Blue 3",
-      "block.retrodim.window_ambience_blue_4": "Window Ambience Blue 4",
-      "block.retrodim.window_ambience_blue_5": "Window Ambience Blue 5"
+      "block.retrodim.bit_sprite": "Bit Sprite",
+      "block.retrodim.bit_harmony": "Bit Harmony",
+      "block.retrodim.neon_edge_black_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_blue_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_dark_blue_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_block_black.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_blue.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_brown.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_bubblegum.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_cyan.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_cyan.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_bubblegum.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_brown.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_blue.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_black.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_yellow.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_yellow.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_white.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_white.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_red.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_red.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_purple.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_purple.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_pink.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_pink.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_orange.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_orange.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_magenta.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_magenta.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_lime.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_lime.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_light_yellow.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_light_yellow.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_light_gray.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_light_gray.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_light_blue.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_light_blue.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_green.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_block_green.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_gray.description_0": "While holding, right-click air for",
+      "block.retrodim.neon_block_gray.description_1": "next animation, sneak for previous.",
+      "block.retrodim.neon_dark_brown_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_dark_bubblegum_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_dark_cyan_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_dark_gray_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_dark_green_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_dark_light_blue_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_dark_light_gray_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_dark_light_yellow_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_dark_lime_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_dark_magenta_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_dark_orange_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_dark_pink_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_dark_purple_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_dark_red_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_dark_white_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_dark_yellow_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_brown_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_bubblegum_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_cyan_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_gray_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_green_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_light_blue_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_light_gray_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_light_yellow_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_lime_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_magenta_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_orange_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_pink_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_purple_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_red_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_white_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.neon_edge_yellow_block.description_0": "When placed, right-click with empty hand to twist",
+      "block.retrodim.flashing_blue_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_blue_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_blue_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_blue_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_blue_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_blue_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_blue_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_blue_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_blue_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_blue_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_brown_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_brown_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_brown_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_brown_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_brown_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_brown_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_brown_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_brown_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_brown_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_brown_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_bubblegum_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_bubblegum_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_bubblegum_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_bubblegum_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_bubblegum_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_bubblegum_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_bubblegum_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_bubblegum_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_bubblegum_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_bubblegum_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_cyan_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_cyan_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_cyan_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_cyan_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_cyan_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_cyan_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_cyan_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_cyan_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_cyan_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_cyan_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_gray_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_gray_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_gray_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_gray_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_gray_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_gray_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_gray_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_gray_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_gray_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_gray_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_green_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_green_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_green_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_green_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_green_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_green_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_green_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_green_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_green_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_green_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_light_blue_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_light_blue_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_light_blue_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_light_blue_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_light_blue_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_light_blue_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_light_blue_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_light_blue_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_light_blue_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_light_blue_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_light_gray_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_light_gray_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_light_gray_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_light_gray_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_light_gray_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_light_gray_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_light_gray_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_light_gray_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_light_gray_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_light_gray_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_light_yellow_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_light_yellow_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_light_yellow_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_light_yellow_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_light_yellow_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_light_yellow_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_light_yellow_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_light_yellow_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_light_yellow_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_light_yellow_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_lime_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_lime_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_lime_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_lime_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_lime_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_lime_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_lime_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_lime_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_lime_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_lime_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_magenta_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_magenta_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_magenta_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_magenta_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_magenta_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_magenta_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_magenta_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_magenta_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_magenta_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_magenta_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_orange_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_orange_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_orange_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_orange_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_orange_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_orange_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_orange_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_orange_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_orange_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_orange_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_pink_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_pink_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_pink_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_pink_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_pink_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_pink_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_pink_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_pink_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_pink_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_pink_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_purple_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_purple_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_purple_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_purple_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_purple_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_purple_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_purple_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_purple_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_purple_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_purple_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_red_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_red_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_red_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_red_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_red_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_red_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_red_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_red_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_red_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_red_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_white_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_white_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_white_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_white_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_white_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_white_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_white_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_white_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_white_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_white_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_yellow_1s_x.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_yellow_1s_x.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_yellow_1s_y.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_yellow_1s_y.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_yellow_1s_z.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_yellow_1s_z.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_yellow_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_yellow_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flashing_yellow_2s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flashing_yellow_2s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_blue_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_blue_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_blue_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_blue_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_blue_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_blue_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_blue_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_blue_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_brown_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_brown_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_brown_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_brown_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_brown_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_brown_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_brown_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_brown_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_bubblegum_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_bubblegum_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_bubblegum_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_bubblegum_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_bubblegum_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_bubblegum_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_bubblegum_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_bubblegum_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_cyan_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_cyan_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_cyan_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_cyan_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_cyan_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_cyan_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_cyan_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_cyan_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_gray_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_gray_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_gray_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_gray_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_gray_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_gray_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_gray_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_gray_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_green_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_green_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_green_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_green_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_green_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_green_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_green_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_green_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_light_blue_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_light_blue_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_light_blue_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_light_blue_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_light_blue_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_light_blue_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_light_blue_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_light_blue_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_light_gray_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_light_gray_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_light_gray_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_light_gray_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_light_gray_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_light_gray_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_light_gray_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_light_gray_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_light_yellow_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_light_yellow_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_light_yellow_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_light_yellow_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_light_yellow_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_light_yellow_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_light_yellow_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_light_yellow_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_lime_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_lime_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_lime_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_lime_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_lime_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_lime_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_lime_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_lime_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_magenta_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_magenta_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_magenta_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_magenta_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_magenta_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_magenta_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_magenta_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_magenta_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_orange_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_orange_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_orange_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_orange_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_orange_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_orange_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_orange_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_orange_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_pink_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_pink_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_pink_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_pink_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_pink_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_pink_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_pink_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_pink_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_purple_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_purple_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_purple_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_purple_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_purple_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_purple_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_purple_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_purple_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_red_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_red_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_red_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_red_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_red_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_red_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_red_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_red_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_white_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_white_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_white_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_white_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_white_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_white_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_white_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_white_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_yellow_3s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_yellow_3s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_yellow_3s_b.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_yellow_3s_b.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_yellow_3s_c.description_1": "next animation, sneak for previous.",
+      "block.retrodim.flickering_yellow_3s_c.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_yellow_5s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.flickering_yellow_5s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_blue_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_blue_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_brown_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_brown_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_bubblegum_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_bubblegum_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_cyan_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_cyan_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_gray_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_gray_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_green_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_green_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_light_blue_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_light_blue_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_light_gray_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_light_gray_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_light_yellow_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_light_yellow_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_lime_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_lime_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_magenta_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_magenta_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_orange_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_orange_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_pink_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_pink_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_purple_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_purple_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_red_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_red_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_white_2s_a.description_1": "next animation, sneak for previous.",
+      "block.retrodim.pulsing_white_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_yellow_2s_a.description_0": "While holding, right-click air for",
+      "block.retrodim.pulsing_yellow_2s_a.description_1": "next animation, sneak for previous."
     }
   },
   "metadata": {
@@ -5870,10 +6673,6 @@
         "children": []
       },
       {
-        "name": "WindowAmbience Blocks",
-        "children": []
-      },
-      {
         "name": "Vehicles",
         "children": []
       }
@@ -5882,7 +6681,7 @@
   "workspaceSettings": {
     "modid": "retrodim",
     "modName": "RetroDim",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "author": "MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",

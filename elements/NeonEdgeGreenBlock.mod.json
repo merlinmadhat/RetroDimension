@@ -185,7 +185,9 @@
     ],
     "name": "Neon Edge Green Block",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "When placed, right-click with empty hand to twist"
+      ]
     },
     "hardness": 1.0,
     "resistance": 10.0,

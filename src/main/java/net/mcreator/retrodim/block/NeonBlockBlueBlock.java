@@ -1,6 +1,8 @@
 package net.mcreator.retrodim.block;
 
 import net.neoforged.neoforge.common.util.DeferredSoundType;
+import net.neoforged.api.distmarker.OnlyIn;
+import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -8,9 +10,15 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
 import net.minecraft.util.StringRepresentable;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.BuiltInRegistries;
+
+import java.util.List;
 
 public class NeonBlockBlueBlock extends Block {
 	public static final EnumProperty<ResonanceProperty> RESONANCE = EnumProperty.create("resonance", ResonanceProperty.class);
@@ -22,6 +30,14 @@ public class NeonBlockBlueBlock extends Block {
 						() -> BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("retrodim:plink"))))
 				.strength(1f, 10f).lightLevel(blockstate -> 15).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
 		this.registerDefaultState(this.stateDefinition.any().setValue(RESONANCE, ResonanceProperty.SOLID));
+	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, context, list, flag);
+		list.add(Component.translatable("block.retrodim.neon_block_blue.description_0"));
+		list.add(Component.translatable("block.retrodim.neon_block_blue.description_1"));
 	}
 
 	@Override

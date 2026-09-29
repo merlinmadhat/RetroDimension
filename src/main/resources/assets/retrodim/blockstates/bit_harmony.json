@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "retrodim:block/bit_harmony"
+    },
+    "facing=east": {
+      "model": "retrodim:block/bit_harmony",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "retrodim:block/bit_harmony",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "retrodim:block/bit_harmony",
+      "y": 270
+    }
+  }
+}

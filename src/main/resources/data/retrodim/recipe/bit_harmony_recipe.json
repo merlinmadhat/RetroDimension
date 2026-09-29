@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "retrodim:neon_block_bubblegum"
+    },
+    {
+      "item": "retrodim:neon_block_bubblegum"
+    },
+    {
+      "item": "retrodim:neon_block_bubblegum"
+    },
+    {
+      "item": "retrodim:neon_block_bubblegum"
+    },
+    {
+      "item": "retrodim:neon_block_light_yellow"
+    },
+    {
+      "item": "retrodim:neon_block_cyan"
+    },
+    {
+      "item": "retrodim:neon_block_cyan"
+    },
+    {
+      "item": "retrodim:neon_block_cyan"
+    },
+    {
+      "item": "retrodim:neon_block_cyan"
+    }
+  ],
+  "result": {
+    "id": "retrodim:bit_harmony",
+    "count": 1
+  }
+}

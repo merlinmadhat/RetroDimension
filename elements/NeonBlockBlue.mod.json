@@ -59,7 +59,10 @@
     ],
     "name": "Neon Block Blue",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "While holding, right-click air for",
+        "next animation, sneak for previous."
+      ]
     },
     "hardness": 1.0,
     "resistance": 10.0,

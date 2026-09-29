@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "Blocks.GLASS_PANE",
+      "Items.DYE#18",
+      "Items.DYE#6",
+      "Items.DYE#13",
+      "Items.DYE#9",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:NeonBanner",
+    "name": "neon_banner_recipe",
+    "namespace": "mod"
+  }
+}

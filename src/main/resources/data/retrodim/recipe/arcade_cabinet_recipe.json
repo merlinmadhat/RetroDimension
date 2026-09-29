@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_wood"
+    },
+    {
+      "item": "minecraft:redstone_lamp"
+    },
+    {
+      "item": "minecraft:jukebox"
+    },
+    {
+      "item": "minecraft:oak_button"
+    },
+    {
+      "item": "minecraft:comparator"
+    },
+    {
+      "item": "minecraft:repeater"
+    },
+    {
+      "item": "minecraft:magenta_dye"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    }
+  ],
+  "result": {
+    "id": "retrodim:arcade_cabinet",
+    "count": 1
+  }
+}
