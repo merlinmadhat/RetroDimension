@@ -53,7 +53,7 @@
     "creativeTabs": [
       "BUILDING_BLOCKS"
     ],
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": "",
     "dropAmount": 1,
     "xpAmountMin": 0,
