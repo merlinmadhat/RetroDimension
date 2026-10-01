@@ -5942,6 +5942,13 @@
       "CUSTOM:NeonDarkYellowBlock"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~RetroRedBlock@CUSTOM:RetroRedBlock",
+      "~RetroYellowBlock@CUSTOM:RetroYellowBlock",
+      "~RetroWhiteBlock@CUSTOM:RetroWhiteBlock",
+      "~RetroPurpleBlock@CUSTOM:RetroPurpleBlock",
+      "~RetroOrangeBlock@CUSTOM:RetroOrangeBlock",
+      "~RetroGreenBlock@CUSTOM:RetroGreenBlock",
+      "~RetroBlueBlock@CUSTOM:RetroBlueBlock",
       "~RetroPastelBlock@CUSTOM:RetroPastelBlock"
     ]
   },

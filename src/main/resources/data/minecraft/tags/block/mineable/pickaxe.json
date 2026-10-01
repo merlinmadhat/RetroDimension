@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "retrodim:retro_pastel_block"
+    "retrodim:retro_green_block",
+    "retrodim:retro_yellow_block",
+    "retrodim:retro_red_block",
+    "retrodim:retro_white_block",
+    "retrodim:retro_blue_block",
+    "retrodim:retro_pastel_block",
+    "retrodim:retro_purple_block",
+    "retrodim:retro_orange_block"
   ]
 }
