@@ -6,6 +6,14 @@
     "groundBlock": "CUSTOM:RetroPurpleBlock",
     "undergroundBlock": "CUSTOM:RetroPurpleBlock",
     "underwaterBlock": "CUSTOM:RetroOrangeBlock",
+    "grassColor": {
+      "value": -12805851,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -12805851,
+      "falpha": 0.0
+    },
     "ambientSound": "",
     "additionsSound": "",
     "music": "",
